@@ -1,0 +1,25 @@
+"""
+x = "awesome"
+
+def myfunc():
+    x = "awful"
+    print("I think this is " + x)
+
+myfunc()
+
+print("I think this is " + x)
+"""
+
+# Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+# To create a global variable inside a function, you can use the global keyword.
+
+x = "awesome"
+
+def myfunc():
+    global x
+    x = "awful"
+    print("I think this is " + x)
+
+myfunc()
+
+print("I think this is " + x)
