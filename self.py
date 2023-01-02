@@ -1,4 +1,3 @@
-**SELF**
 class Dog:
 
     def __init__(self, dogBreed = "German Shepherd", dogEyeColor = "Brown"):
