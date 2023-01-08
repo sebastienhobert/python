@@ -1,1 +1,1 @@
-Here you can find some Python exercices. Enjoy!
+Here you can find some simple Python code. Enjoy!
