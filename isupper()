@@ -1,0 +1,8 @@
+txt = "THIS IS NOW"
+x = txt.isupper()
+print(x)
+
+a = "Hello World!"
+b = "OH MY GOD.."
+print(a.isupper())
+print(b.isupper())
