@@ -1,9 +1,0 @@
-class Solution:
-    def detectCapitalUse(self, word: str) -> bool:
-        return word.isupper() or word.islower() or word.istitle()
-
-"""
-isupper(): Check if all the characters in the text are in upper case
-islower(): Check if all the characters in the text are in lower case
-istitle(): Check if each word start with an upper case letter
-"""
