@@ -1,5 +1,0 @@
- #Simply go though each column and check if the column is sorted or not by comparing it with its sorted version
- 
- class Solution:
-    def minDeletionSize(self, strs: List[str]) -> int:
-        return sum(list(column) != sorted(column) for column in zip(*strs))
