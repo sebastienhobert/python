@@ -1,0 +1,11 @@
+#format() to combine strings and numbers
+
+age = 26
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+quantity = 10
+price = 200
+myorder = "I want {} BNB at {} euros."
+print(myorder.format(quantity, price))
+
