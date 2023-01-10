@@ -1,0 +1,13 @@
+#example1
+adder = lambda x, y: x + y
+print (adder (1, 2))
+
+#example2 == lambda simply returning function object, and not being called by print().
+string='some kind of a useless lambda'
+print(lambda string : print(string))
+
+#example3 == the lambda is being called, and the string we pass gets printed at the console.
+x="some kind of a useless lambda"
+(lambda x : print(x))(x)
+
+#source == https://www.guru99.com/python-lambda-function.html
