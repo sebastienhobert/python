@@ -4,3 +4,9 @@
 thislist = ["apple", "orange", "strawberry", "tomato"]
 for i in range(len(thislist)):
    print(thislist[i])
+
+#j'ai mal tapé le code mais du coup ça donne un résultat intéressant ! 
+
+thislist = ["apple", "banana", "raspberry"]
+for i in range(len(thislist)):
+    print(thislist)
