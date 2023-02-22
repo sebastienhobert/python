@@ -3,3 +3,13 @@ if "free" in txt:
   print("Yes, 'free' is present.")
 else:
     print("No, 'free' is present.")
+    
+    
+#Elif
+#The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+a = 666
+b = 666
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
