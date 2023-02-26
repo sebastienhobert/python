@@ -29,3 +29,10 @@ if a > b: print("a is greater than b")
 a = 24
 b = 330
 print("a is greater than b") if a > b else print("b is greater than a")
+
+
+#You can also have multiple else statements on the same line:
+#One line if else statement, with 3 conditions:
+a = 329
+b = 328
+print("a is superior than b") if a > b else print("a is equal to b") if a == b else print("a is inferior to b")
