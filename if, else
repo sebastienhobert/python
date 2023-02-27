@@ -36,3 +36,14 @@ print("a is greater than b") if a > b else print("b is greater than a")
 a = 329
 b = 328
 print("a is superior than b") if a > b else print("a is equal to b") if a == b else print("a is inferior to b")
+
+
+#And
+#The and keyword is a logical operator, and is used to combine conditional statements:
+#ExampleGet your own Python Server
+#Test if a is greater than b, AND if c is greater than a:
+a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
