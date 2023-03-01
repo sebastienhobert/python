@@ -56,3 +56,14 @@ a = 33
 b = 200
 if not a > b:
   print("a is NOT greater than b")
+
+
+#Nested If
+#You can have if statements inside if statements, this is called nested if statements.
+x = 21
+if x > 10:
+    print("Above 10,")
+    if x > 20:
+        print("an also above 20!")
+    else:
+        print("but not above 20.")
