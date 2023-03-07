@@ -1,0 +1,9 @@
+#Python For Loops
+#A for loop is used for iterating over a sequence (list, tuple, dictionary, set, string)
+
+#Looping Through a String
+#Even strings are iterable objects, they contain a sequence of characters
+#Ex: loop through the letter in the word "banana"
+for x in "banana":
+    print(x)
+    
