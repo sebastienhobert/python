@@ -50,3 +50,21 @@ for x in range(2, 6):
 #The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3):
 for x in range (2, 20, 3):
     print(x)
+
+
+
+#Else in For Loop
+#The else keyword in a for loop specifies a block of code to be executed when the loop is finished 
+#Print all numbers from 0 to 5, and print a message when the loop has ended:
+for x in range(6):
+    print(x)
+else:
+    print("Finally finished")
+    
+#NOTE- The else bloxk will not be executed if the loop is stopped by a break statement
+#Break the loop when x is 3, and see what happens with the else block:
+for x in range(6):
+    if x == 3: break
+    print(x)
+else:
+    print("Finally finished!")
