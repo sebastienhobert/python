@@ -50,3 +50,14 @@ def my_function(fname, lname):
     print(fname + " " + lname)
     
 my_function("Nana Ouyang")
+
+
+
+#Arbitrary Arguments, *args
+#If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function 
+#This way the function will receive a tuple of arguments, and can access the items accordingly:
+#If the number of arguments is unknown, add a * before the parameter name:
+def function(*pokemon):
+    print("The most powerful Pokemon is " + pokemon[0])
+    
+function("Rayquaza", "Dialga", "Metagross", "Magikarp") 
