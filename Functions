@@ -61,3 +61,12 @@ def function(*pokemon):
     print("The most powerful Pokemon is " + pokemon[0])
     
 function("Rayquaza", "Dialga", "Metagross", "Magikarp") 
+
+
+
+#Keyword Arguments
+#You can also send arguments with the key = value syntax
+#This way the order of the arguments does not matter
+def pokemon(pok1, pok2, pok3):
+  print("The most popular 'Pokemon Starter' is " + pok2)
+pokemon(pok1 = "bulbasaur", pok2 = "charmander", pok3 = "squirtle")
