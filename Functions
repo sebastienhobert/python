@@ -70,3 +70,19 @@ function("Rayquaza", "Dialga", "Metagross", "Magikarp")
 def pokemon(pok1, pok2, pok3):
   print("The most popular 'Pokemon Starter' is " + pok2)
 pokemon(pok1 = "bulbasaur", pok2 = "charmander", pok3 = "squirtle")
+
+
+
+"""
+Arbitrary Keyword Arguments, **kwargs
+If you don't know how many keyword arguments that will be passed into your function, add two asterisks ** 
+before the parameter name in the function definition.
+
+This way the function will receive a dictionary of arguments, and can access the items accordingly:  
+
+Ex: if the number of keyword arguments is unknown, add a double ** before the parameter number: 
+"""
+def genshin_impact(**character):
+    print(character["name2"] + "is a five-star characters")
+    
+genshin_impact(name1 = "Qiqi", name2 = "Venti ") 
