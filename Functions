@@ -103,3 +103,15 @@ def function(food):
     
 fruits = ["apple", "banana", "cherry"]
 function(fruits)
+
+
+
+"""
+Return Values
+To let a function return a value, use the return statement:
+"""
+def function(x):
+    return 5 * x 
+print(function(5))
+print(function(10))
+print(function(70))
