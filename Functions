@@ -115,3 +115,13 @@ def function(x):
 print(function(5))
 print(function(10))
 print(function(70))
+
+
+
+"""
+The pass Statement
+function definitions cannot be empty, but if you for some reason have a function definition with no content, 
+put in the pass statement to avoid getting an error.  
+"""
+def function():
+    pass
