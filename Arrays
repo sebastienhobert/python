@@ -50,3 +50,14 @@ cars = ["Ford", "Volvo", "BMW"]
 cars[0] = "Toyota"
 print(cars)
 
+
+
+
+"""
+The Length of an array
+Use the len() method to return the length of an array (the number of elements in an array)
+Ex: return the number of elements in the cars array: 
+"""
+cars = ["Ford", "Volvo", "BMW"]
+x = len(cars)
+print(x)
