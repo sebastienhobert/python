@@ -63,4 +63,12 @@ x = len(cars)
 print(x)
 
 
-lol
+
+"""
+Looping Array Elements
+You can use the 'for in' loop to loop through all all the elements of an array
+Ex: print each item in the cars array:
+"""
+cars = ["Ford", "Volvo", "BMW"]
+for x in cars:
+    print(x)
