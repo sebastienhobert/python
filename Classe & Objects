@@ -125,3 +125,12 @@ You can delete properties on objects by using the del keyword
 Ex: delete the age property from the p1 object
 """
 del p1.age
+
+
+
+"""
+DELETE OBJECTS
+You can delete objects by using the del keyword
+Ex: delete the p1 object
+"""
+del p1
