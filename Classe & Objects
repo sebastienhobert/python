@@ -134,3 +134,12 @@ You can delete objects by using the del keyword
 Ex: delete the p1 object
 """
 del p1
+
+
+
+"""
+THE PASS STATEMENT 
+class definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error 
+"""
+class Person:
+    pass
