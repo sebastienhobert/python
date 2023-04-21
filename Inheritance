@@ -20,3 +20,13 @@ class Person:
 #Use the Person class to create an object, an then execute the printname method:
 x = Person("Sebastien", "HOBERT")
 x.printname()
+
+
+
+"""
+CREATE A CHILD CLASS
+To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child class:
+Ex: create a class named Student, which will inherit the properties and methods from the Person Class:
+"""
+class Student(Person):
+    pass
