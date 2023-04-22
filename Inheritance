@@ -30,3 +30,9 @@ Ex: create a class named Student, which will inherit the properties and methods 
 """
 class Student(Person):
     pass
+"""
+Now the Student class has the same properties and methods as the Person Class
+Ex: use the Student class to create an object, and then execute the printname method: 
+"""
+x = Student("Mike", "Olsen")
+x.printname()
