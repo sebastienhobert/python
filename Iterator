@@ -30,3 +30,13 @@ print(next(myit))
 print(next(myit))
 
 
+
+"""
+LOOPING THROUGH AN ITERATOR
+We can also use a for loop to iterate through an iterable object
+Ex: iterate the value of a tuple 
+"""
+mytuple = ("apple", "banana", "cherry")
+
+for x in mytuple:
+    print(x)
