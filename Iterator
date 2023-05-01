@@ -34,9 +34,16 @@ print(next(myit))
 """
 LOOPING THROUGH AN ITERATOR
 We can also use a for loop to iterate through an iterable object
-Ex: iterate the value of a tuple 
 """
+#Ex: iterate the value of a tuple 
 mytuple = ("apple", "banana", "cherry")
 
 for x in mytuple:
+    print(x)
+
+
+#Ex: iterate the characters of a string
+mystr = "banana"
+
+for x in mystr:
     print(x)
