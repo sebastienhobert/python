@@ -10,7 +10,7 @@ Lists, tuples, dictionaries, and sets are all iterable objects. They are iterabl
 All these objects have a iter() method which is used to get an iterator
 """
 
-#Ex: return an iterator from a tuple, and print each value
+#Ex: return an iterator from a tuple, and print each valuegfgdf
 mytuple = ("apple", "banana", "cherry")
 myit = iter(mytuple)
 print(next(myit))
