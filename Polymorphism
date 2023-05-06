@@ -11,8 +11,6 @@ An example of a Python function that can be used on different objects is the len
 STRING
 For strings len() returns the number of characters
 """
-
-#Ex: 
 x = "Hello World!"
 print(len(x))
 
@@ -21,6 +19,20 @@ print(len(x))
 TUPLE
 For tuples len() returns the number of items in the tuple
 """
-#Ex: 
 mytuple = ("apple", "banana", "cherry")
 print(len(mytuple))
+
+
+"""
+DICTIONARY
+For dictionaries len() returns the number of key/value pair in the dictionary
+"""
+thisdict = {
+    "brand": "BYD",
+    "model": "E6",
+    "year": 2010
+}
+print(len(thisdict))
+
+
+  
