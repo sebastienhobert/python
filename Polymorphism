@@ -73,4 +73,10 @@ plane1 = Plane("Boeing", "747") # create a Plane class
 
 for x in (car1, boat1, plane1):
     x.move()
-  
+    
+#Look at the loop at the end. Because of polymorphism we can execute the same method for all three classes  
+
+
+
+
+
