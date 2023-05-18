@@ -22,3 +22,24 @@ Now we can use the module we just created, by using the import statement
 import mymodule
 
 mymodule.greeting("Sebastien")
+
+
+
+
+"""
+VARIABLES IN MODULE
+The module can contain functions, as already described, but also variables of all types (arrays, dictionaries, objects etc.)  
+"""
+
+#Ex: save this code in the file mymodule.py
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+
+#Ex: import the module named mymodule, and access the person1 dictionary
+import mymodule
+
+a = mymodule.person1["age"]
+print(a)
