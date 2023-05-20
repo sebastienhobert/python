@@ -58,3 +58,15 @@ You can create an alias when you import a module, by using the as keyword
 import mymodule as mx
 a = mx.person1["age"]
 print(a)
+
+
+
+"""
+BUILT-IN MODULES
+There are several built-in modules in Python, which you can import whenever you like
+"""
+#Ex: import and use the platform module
+import platform
+
+x = platform.system()
+print(x)
