@@ -70,3 +70,16 @@ import platform
 
 x = platform.system()
 print(x)
+
+
+
+
+"""
+USING THE DIR() FUNCTION
+There is a built-in function to list all the function names (or variables) in a module. 
+"""
+#Ex: list all the defined names belonging to the platform module
+import platform
+
+x = dir(platform)
+print(x)
