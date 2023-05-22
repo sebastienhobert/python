@@ -83,3 +83,20 @@ import platform
 
 x = dir(platform)
 print(x)
+
+
+
+
+"""
+IMPORT FROM MODULE
+You can choose to import only parts from a module, by using the from keyword
+"""
+#Ex: the module named mymodule has one function and one dictionary
+def greeting(name):
+    print("Hello, " + name)
+    
+person1 = {
+    "name": "Georgie",
+    "age": 17,
+    "county": "Texas"
+}
