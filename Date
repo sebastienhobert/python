@@ -6,3 +6,23 @@ A date in Python is not a data type of its own, but we can import a module named
 import datetime
 x = datetime.datetime.now()
 print(x)
+
+
+
+"""
+DATE OUTPUT 
+When we execute the code from the example above the result will be:
+2023-05-25 15:32:40.345581
+
+The date contains year, month, day, hour, minute, second, and microsecond
+The datetime module has many methods to return information about the data object
+
+Here are a few examples, you will learn more about them later in this chapter
+"""
+#Ex: return the year and name of weekday
+import datetime
+
+x = datetime.datetime.now()
+
+print(x.year)
+print(x.strftime("%A"))
