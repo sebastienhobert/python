@@ -26,3 +26,15 @@ x = datetime.datetime.now()
 
 print(x.year)
 print(x.strftime("%A"))
+
+
+
+"""
+CREATING DATE OBJECTS
+To create a date, we can use the datetime() class (construtor) of the datetime module
+The datetime class requires three parameters to create a date: year, month, day 
+"""
+#Ex: create a date object
+import datetime
+x = datetime.datetime(2023, 5, 27)
+print(x)
