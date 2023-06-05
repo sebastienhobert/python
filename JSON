@@ -99,3 +99,11 @@ json.dumps(x, indent=4)
 
 #PRINT THE RESULT
 print(json.dumps(x))
+
+
+
+"""
+You can also define the separators, default value is (", ", ": "), which means using a comma and a space to separate each object, and a colon and a space to separate keys from values:
+"""
+#Ex: Use the separators parameter to change the default separator:
+json.dumps(x, indent=4, separators=(". ", " = "))
