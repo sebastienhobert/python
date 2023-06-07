@@ -107,3 +107,27 @@ You can also define the separators, default value is (", ", ": "), which means u
 """
 #Ex: Use the separators parameter to change the default separator:
 json.dumps(x, indent=4, separators=(". ", " = "))
+
+
+
+
+import json
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+"""
+ORDER THE RESULT
+The json.dumps() method has parameters to order the keys in the result
+"""
+#Ex: use the sort_keys parameter to specify if the result should be sorted or not
+print(json.dumps(x, indent=4, sort_keys=True))
