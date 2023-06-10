@@ -21,3 +21,15 @@ When you have imported the re module, you can start using regular expressions
 import re 
 txt = "The rain in Spain"
 x = re.search ("^The.*Spain$", txt)
+
+
+
+"""
+THE FINDALL() FUNCTION
+The findall() function returns a list containing all matches 
+"""
+#Ex: print a list of all matches
+import re 
+txt = "The rain in Spain"
+x = re.findall("ai", txt)
+print(x)
