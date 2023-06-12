@@ -33,3 +33,14 @@ import re
 txt = "The rain in Spain"
 x = re.findall("ai", txt)
 print(x)
+
+
+
+"""
+If no matches are found, the value None is returned:
+"""
+#Ex: Make a search that returns no match:
+import re
+txt = "The rain in Spain"
+x = re.search("Portugal", txt)
+print(x)
