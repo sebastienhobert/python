@@ -44,3 +44,15 @@ import re
 txt = "The rain in Spain"
 x = re.search("Portugal", txt)
 print(x)
+
+
+
+"""
+THE SPLIT() FUNCTION
+The split() function returns a list where the string has been split at each match
+"""
+#Ex: split at each white-space character
+import re
+txt = "The rain in spain"
+x = re.split("\s", txt)
+print(x)
