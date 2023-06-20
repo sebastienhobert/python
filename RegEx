@@ -69,7 +69,6 @@ x = re.split("\s", txt, 1)
 print(x)
 
 
-
 """
 THE SUB() FUNCTION
 The sub() function replaces the matches with the text of your choice 
@@ -81,7 +80,6 @@ x = re.sub("\s", "9", txt)
 print(x)
 
 
-
 """
 You can control the number of replacements by specifying the count parameter
 """
@@ -90,7 +88,6 @@ import re
 txt = "The Rain in Spain"
 x = re.sub("\s", "9", txt, 2)
 print(x)
-
 
 
 """
@@ -104,7 +101,6 @@ x = re.search("ai", txt)
 print(x) #this will print an object
 
 
-
 #Ex: print the position (start- and end-position) if the first match occurence
 #The regular expression looks for any words that starts with an upper case "S"
 import re
@@ -113,10 +109,17 @@ x = re.search(r"\bS\w+", txt)
 print(x.span())
 
 
-
 #Ex: print the string passed into the function
 import re
 txt = "The rain in Spain"
 x = re.search(r"\bS\w+", txt)
 print(x.string)
+
+
+#Ex: print the part of the string where there was a match
+#The regular expression looks for any words that starts with an upper case "S"
+import re
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt) 
+print(x.group())
 
