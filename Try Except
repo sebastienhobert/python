@@ -16,3 +16,11 @@ try:
     print(x)
 except:
     print("An exception occured")
+
+
+"""
+Since the try block raise an error, the except block will be executed
+Without the try block, the program will crash and raise an error
+"""
+#Ex: this statement will raise an error, because x is not defined
+print(x)
