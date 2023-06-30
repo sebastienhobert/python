@@ -12,3 +12,12 @@ To control such values, add placeholders (curly brackers {}) in the text, and ru
 price = 49
 txt = "The price is {} dollars"
 print(txt.format(price))
+
+
+"""
+You can add parameters inside the curly brackets to specify how to convert the value
+"""
+#Ex: format the price to be displayed as a number with two decimals
+price = 50
+txt = "The price is {:.2f} dollars"
+print(txt.format(price))
