@@ -21,3 +21,16 @@ You can add parameters inside the curly brackets to specify how to convert the v
 price = 50
 txt = "The price is {:.2f} dollars"
 print(txt.format(price))
+
+
+"""
+MULTIPLE VALUES
+If you want to use more values, just add more values to the format() method
+"""
+quantity = 3
+itemno = 567
+price = 51
+
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
+
