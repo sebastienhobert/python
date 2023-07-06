@@ -12,3 +12,21 @@ f = open("test.txt", "rt")
 """
 Because "r" for read, and "t" for text are the default values, you do not need to specify them
 """
+
+
+
+"""
+OPEN A FILE ON THE SERVER
+Assume we have the following file , located in the same folder as Python
+"""
+
+#test.txt
+
+"""
+To open the file, use the built-in open() function
+The open() function returns a file object, which has a read() method for reading the content of a file 
+"""
+
+#Ex:
+f = open ("test.txt", "r")
+print(f.read())
