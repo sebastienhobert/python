@@ -30,3 +30,12 @@ The open() function returns a file object, which has a read() method for reading
 #Ex:
 f = open ("test.txt", "r")
 print(f.read())
+
+
+"""
+READ ONLY PARTS OF THE FILE
+By default the read() method returns the whole text, but you can also specify many characters you want to return
+"""
+#Ex: return the 5 first characters of the file
+f = open("test.txt", "r")
+print(f.read(5))
