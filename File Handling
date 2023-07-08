@@ -39,3 +39,18 @@ By default the read() method returns the whole text, but you can also specify ma
 #Ex: return the 5 first characters of the file
 f = open("test.txt", "r")
 print(f.read(5))
+
+
+
+"""
+READ LINES
+You can return one line by using readline() method
+"""
+#Ex: read one line of the file
+f = open("test.txt", "r")
+print(f.readline())
+
+#By calling it twice, you can read the first two liens
+f = open("demofile.txt", "r")
+print(f.readline())
+print(f.readline())
