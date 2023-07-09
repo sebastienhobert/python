@@ -54,3 +54,24 @@ print(f.readline())
 f = open("demofile.txt", "r")
 print(f.readline())
 print(f.readline())
+
+
+
+"""
+By looping through the lines of the file, you can read the whole file, line by line
+"""
+#Ex: loop through the fine line by line
+f = open ("test.txt", "r")
+for x in f:
+    print(x)
+
+
+
+"""
+CLOSE FILES
+It is a good practice to always close the file when you are done with it 
+"""
+#Ex: close the file when you are done with it
+f = open("test.txt", "r")
+print(f.readline())
+f.close()
