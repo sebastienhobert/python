@@ -149,3 +149,14 @@ To access elements from 3-D arrays we can use comma separated integers represent
 import numpy as np
 arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 print(arr[0, 1, 2])
+
+
+
+"""
+NEGATIVE INDEXING
+Use negative indexing to access an array from the end
+"""
+#Ex: print the last element from the 2nd dimension
+import numpy as np
+arr = np.array([[1, 2, 3, 4, 5],[6, 7, 8, 9, 10]])
+print("Last element from the 2nd dimension: ", arr[1, -1])
