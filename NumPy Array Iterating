@@ -51,3 +51,10 @@ for x in arr:
     for y in x:
         for z in y:
             print(z)
+
+
+"""
+ITERATING ARRAYS USING NDITER()
+The function nditer() is a helping function that can be used from very basic to very advanced iterations.
+It solves some basic issues which we face in iteration, let's go through it with examples.
+"""
