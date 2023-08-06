@@ -58,3 +58,9 @@ ITERATING ARRAYS USING NDITER()
 The function nditer() is a helping function that can be used from very basic to very advanced iterations.
 It solves some basic issues which we face in iteration, let's go through it with examples.
 """
+
+"""
+ITERATING ON EACH SCALAR ELEMENT
+In basic for loops, iterating through each scalar of an array we need to use n for loops which can be difficult to write for arrays with very high dimensionality
+"""
+
