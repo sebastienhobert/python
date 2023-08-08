@@ -1,0 +1,22 @@
+"""
+SPLITTING NUMPY ARRAYS
+
+Splitting is reverse operation of joining.
+Splitting breaks one array into multiple.
+Joining merges multiple arrays into one.
+We use array_split() for splitting arrays, we pass it the array we want to split and the number of splits.
+"""
+#Ex: split the array in 3 parts
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6])
+newarr = np.array_split(arr, 3)
+print(newarr)
+#Note- the return value is a list containing three arrays
+
+"""If the array has less elements than required, it will adjust from the end accordingly"""
+#Ex: split the array in 4 parts
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6])
+newarr = np.array_split(arr, 4)
+print(newarr)
+#Note- we also have the method split() available but it will not adjust the elements when elements are less in source array like in example above, array_split() worked properly but split would fail
