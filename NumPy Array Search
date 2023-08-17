@@ -36,3 +36,14 @@ arr = np.array([6, 7, 8, 9])
 x = np.searchsorted(arr, 7)
 print(x)
 
+
+"""
+SEARCH FROM THE RIGHT SIDE
+By default the left most index is returned, but we can give side='right' to return the right most index instead
+"""
+#Ex: find the indexes where the value 7 should be inserted, starting from the right most index instead
+import numpy as np
+arr = np.array([6, 7, 8, 9])
+x = np.searchsorted(arr, 7, side = 'right')
+print(x)
+
