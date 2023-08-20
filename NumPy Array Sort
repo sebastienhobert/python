@@ -8,3 +8,9 @@ The NumPy ndarray object has a function called sort(), that will sort a specific
 import numpy as np
 arr = np.array([3, 2, 0, 1])
 print(np.sort(arr))
+
+#Ex: sort the array alphabetically
+import numpy as np
+arr = np.array(['banana', 'cherry', 'apple'])
+print(np.sort(arr))
+
