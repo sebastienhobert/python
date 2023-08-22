@@ -18,3 +18,12 @@ print(np.sort(arr))
 import numpy as np
 arr = np.array([[True, False, True]])
 print(np.sort(arr))
+
+"""
+SORTING A 2-D ARRAY
+If you use the sort() method on a 2-D array, both arrays will be sorted:
+"""
+#Ex: sort a 2-D array
+import numpy as np
+arr = np.array([[3, 2, 4], [5, 0, 1]])
+print(np.sort(arr))
