@@ -5,3 +5,12 @@ GENERATE RANDOM NUMBER
 from numpy import random
 x = random.randint(100)
 print(x)
+
+"""
+GENERATE RANDOM FLOAT
+The random module's rand() method returns a random float between 0 and 1.
+"""
+# Generate a random float from 0 to 1
+from numpy import random
+x = random.rand()
+print(x)
