@@ -14,3 +14,20 @@ The random module's rand() method returns a random float between 0 and 1.
 from numpy import random
 x = random.rand()
 print(x)
+
+
+
+"""
+GENERATE RANDOM ARRAY
+In NumPy we work with arrays, and you can use the two methods from the above examples to make random arrays.
+"""
+
+"""
+INTEGERS
+The randint() method takes a size parameter where you can specify the shape of an array.
+"""
+#Ex: generate a 1-D array containing 5 random integers from 0 to 100
+from numpy import random
+x = random.randit(100, size=(5))
+print(x)
+
