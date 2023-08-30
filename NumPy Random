@@ -15,12 +15,12 @@ from numpy import random
 x = random.rand()
 print(x)
 
-
-
 """
 GENERATE RANDOM ARRAY
 In NumPy we work with arrays, and you can use the two methods from the above examples to make random arrays.
 """
+
+
 
 """
 INTEGERS
@@ -34,4 +34,15 @@ print(x)
 #Ex: generate a 2-D array with 3 rows, each row containing 5 random integers from 0 to 100
 from numpy import random
 x = random.randint(100, size(3, 5))
+print(x)
+
+
+
+"""
+FLOATS
+The rand() method also allows you to specify the shape of an array.
+"""
+#Ex: generate a 1-D array containing 5 random floats
+from numpy import random
+x = random.rand(5)
 print(x)
