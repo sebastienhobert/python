@@ -51,3 +51,15 @@ print(x)
 from numpy import random
 x = random.rand(3, 5)
 print(x)
+
+
+
+"""
+GENERATE RANDOM NUMBER FROM ARRAY
+The choice() method allows you to generate a random value based on an array of values.
+The choice() method takes an array as a parameter and randomly returns one of the values.
+"""
+#Ex: return one of the values in an array
+from numpy import random
+x = random.choice([3, 5, 7, 9])
+print(x)
