@@ -13,3 +13,29 @@ x = "awesome"
 def myfunc():
     print("Python is " + x)
 myfunc()
+
+#Ex: create a variable inside a function, with the same name as the global variable
+x = "seb"
+def myfunc():
+    x = "suzy"
+    print("hello! my name is " + x)
+myfunc()
+
+
+"""
+THE GLOBAL KEYWORD
+"""
+#Ex: if you use the global keyword, the variable belongs to the global scope
+def myfunc():
+    global x
+    x = "everyone"
+myfunc()
+print("hello " + x)
+
+#Ex: to change the value of a global variable inside a function, refer to the variable by using the global keyword
+x = "pollution"
+def myfunc():
+    global x
+    x = "earth"
+myfunc()
+print("Let's protect " + x)
