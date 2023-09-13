@@ -39,3 +39,10 @@ def myfunc():
     x = "earth"
 myfunc()
 print("Let's protect " + x)
+
+"""
+LOOPING THROUGH A STRING
+"""
+#Ex: loop through the letters in the word "banana"
+for x in "abcde":
+    print(x)
