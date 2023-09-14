@@ -46,3 +46,18 @@ LOOPING THROUGH A STRING
 #Ex: loop through the letters in the word "banana"
 for x in "abcde":
     print(x)
+
+
+"""
+CHECK STRING
+"""
+#Ex: check if "free" is present in the following text
+txt = "The best things in life are free!"
+print("free" in txt)
+
+#Ex: print only if "free" is present
+txt = "The best things in life are cool!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
+else:
+    print("No, 'free' is not present.")
