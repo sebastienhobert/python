@@ -114,3 +114,11 @@ NEGATIVE INDEXING
 # to, but not included: "d" in "World!" (position -2)
 b = "Hello, World!"
 print(b[-5:-2])
+
+
+"""
+UPPER CASE
+"""
+# Ex: the upper() method returns the string in uppercase
+a = "Hello, world!"
+print(a.upper())
