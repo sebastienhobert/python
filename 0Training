@@ -122,3 +122,12 @@ UPPER CASE
 # Ex: the upper() method returns the string in uppercase
 a = "Hello, world!"
 print(a.upper())
+
+
+"""
+REMOVE WHITE SPACE
+"""
+#Ex: the strip() method removes any whitespace from the beginning or the end
+a = "    Hello, world! "
+print(a.strip())
+print(a)
