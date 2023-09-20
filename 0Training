@@ -147,3 +147,19 @@ SPLIT STRING
 #Ex: the split() method splits the string into substrings if it finds instances of the separator
 a = "Hello, World!"
 print(a.split(",")) # returns ['Hello', 'World!']
+
+
+#Ex: use the format() method to insert numbers into strings
+age = 26
+txt = "My name is Sebastien, and I am {}"
+print(txt.format(age))
+
+
+
+"""
+STRING FORMAT
+"""
+#Ex: use the format() method to insert numbers into strings
+age = 26
+txt = "My name is Sebastien, and I am {}"
+print(txt.format(age))
