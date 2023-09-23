@@ -179,3 +179,11 @@ itemno = 567
 price = 49.45
 myorder = "I want to pay {2} euros for {0} pieces of item {1}"
 print(myorder.format(quantity, itemno, price))
+
+
+"""
+ESCAPE CHARACTER
+"""
+#Ex: the escape character allows you to use double quotes when you normally would not be allowed
+txt = "We are \"sorry\" but this is not available anymore."
+print(txt)
