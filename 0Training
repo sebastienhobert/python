@@ -187,3 +187,15 @@ ESCAPE CHARACTER
 #Ex: the escape character allows you to use double quotes when you normally would not be allowed
 txt = "We are \"sorry\" but this is not available anymore."
 print(txt)
+
+
+"""
+BOOLEANS & OPERATORS
+"""
+#Ex: print a message based on whether the condition is True or False
+a= 32
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("a is greater than b")
