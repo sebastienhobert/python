@@ -199,3 +199,11 @@ if b > a:
     print("b is greater than a")
 else:
     print("a is greater than b")
+
+
+"""
+EVALUATE VALUE AND VARIABLES
+"""
+#Ex: evaluate a string and a number
+print(bool("hello"))
+print(bool(15))
