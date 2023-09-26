@@ -207,3 +207,13 @@ EVALUATE VALUE AND VARIABLES
 #Ex: evaluate a string and a number
 print(bool("hello"))
 print(bool(15))
+
+
+
+"""
+SOME VALUES ARE FALSE
+"""
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
