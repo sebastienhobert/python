@@ -225,3 +225,12 @@ class myclass():
         return 0
 myobj = myclass()
 print(bool(myobj))
+
+
+"""
+FUNCTIONS CAN RETURN A BOOLEAN
+"""
+#Ex: print the answer of a function
+def myFunction():
+    return True
+print(myFunction())
