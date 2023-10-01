@@ -251,3 +251,11 @@ Python also has many built-in-functions that return a boolean value, like the is
 #Ex: check if an object is an integer or not
 x = 200
 print(isinstance(x, int))
+
+
+"""
+THE LIST CONSTRUCTOR
+"""
+#Ex: use the list() constructor to make a list
+thislist = list(("apple", "banana", "cherry"))
+print(thislist)
