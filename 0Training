@@ -259,3 +259,12 @@ THE LIST CONSTRUCTOR
 #Ex: use the list() constructor to make a list
 thislist = list(("apple", "banana", "cherry"))
 print(thislist)
+
+
+"""
+ACCESS ITEMS
+"""
+# List items are indexed and you can access them by referring to the index number
+#Ex: print the 2nd item of the list
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
