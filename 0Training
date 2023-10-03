@@ -268,3 +268,11 @@ ACCESS ITEMS
 #Ex: print the 2nd item of the list
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
+
+
+"""
+RANGE OF INDEXES
+"""
+#Ex: return the 3rd, the 4th and 5th item
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
