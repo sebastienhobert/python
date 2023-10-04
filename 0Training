@@ -276,3 +276,8 @@ RANGE OF INDEXES
 #Ex: return the 3rd, the 4th and 5th item
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
+
+
+#Ex: this example returns the items from the beginning to, but NOT including, "kiwi"
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
