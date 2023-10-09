@@ -301,3 +301,14 @@ if "apple" in thislist:
 #Ex: this example returns the items from "orange" (-4) to, but NOT including "mango" (-1)
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[-4:-1])
+
+
+
+"""
+CHANGE ITEM VALUE
+To change the value of a specific item, refer to the index number.
+"""
+#Ex: change the second item
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
