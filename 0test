@@ -17,3 +17,9 @@ chinesebrands = ["huawei", "xiaomi", "oppo", "vivo"]
 otherbrands = ["apple", "samsung"]
 chinesebrands.extend(otherbrands)
 print(chinesebrands)
+
+#Ex: add elements of a tuple to a list
+list = ["square", "rectangle", "cube"]
+tuple = ("circle", "oval", "disk")
+list.extend(tuple)
+print(list)
