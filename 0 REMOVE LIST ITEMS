@@ -1,0 +1,37 @@
+"""
+REMOVE LIST ITEMS
+"""
+
+#Ex: remove "usa"
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+countries.remove("usa")
+print(countries)
+
+#Ex: remove the first occurrence of "usa"
+countries = ["france", "usa", "canada", "china", "japan", "usa", "south korea", "usa", "usa"]
+countries.remove("usa")
+print(countries)
+
+#Ex: remove the first item
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+countries.pop(0)
+print(countries)
+
+#Ex: remove the last item
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+countries.pop()
+print(countries)
+
+#Ex: remove the first item using keyword "del"
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+del countries[0]
+print(countries)
+
+# Delete the entire list
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+del countries
+
+# Clear the list content
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+countries.clear()
+print(countries)
