@@ -27,3 +27,4 @@ while i < len(异人之下):        # len() to determine length of list
 [print(x) for x in 异人之下]
 
 17/10/2023
+18/10/2023
