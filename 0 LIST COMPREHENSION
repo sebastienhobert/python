@@ -1,4 +1,4 @@
-# Display a new list containing only the fruits with letter "a", but using for loop
+# Display a new list containing only names with letter "a", but using for loop
 coursdechinois = ["sebastien", "lysa", "francois", "sophie"]
 coursdechinoisA = []
 
