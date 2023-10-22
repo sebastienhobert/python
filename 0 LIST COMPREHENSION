@@ -1,0 +1,9 @@
+# Display a new list containing only the fruits with letter "a", but using for loop
+coursdechinois = ["sebastien", "lysa", "francois", "sophie"]
+coursdechinoisA = []
+
+for x in coursdechinois:
+    if "a" in x:
+        coursdechinoisA.append(x)
+
+print(coursdechinoisA)
