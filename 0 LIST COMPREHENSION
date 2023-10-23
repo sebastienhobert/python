@@ -1,9 +1,14 @@
 # Display a new list containing only names with letter "a", but using for loop
 coursdechinois = ["sebastien", "lysa", "francois", "sophie"]
 coursdechinoisA = []
-
 for x in coursdechinois:
     if "a" in x:
         coursdechinoisA.append(x)
+print(coursdechinoisA)
 
+
+# Display a new list containing only names with letter "a", but using list comprehension
+# (With list comprehension, you can do this with one line of code)
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisA = [x for x in coursdechinois if "i" in x]
 print(coursdechinoisA)
