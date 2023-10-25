@@ -14,7 +14,7 @@ coursdechinoisA = [x for x in coursdechinois if "i" in x]
 print(coursdechinoisA)
 
 
-# Only accept items that are not "sebastien"
+# Only accept items that are not "beisong"
 coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie", "beisong"]
 coursdechinoisOK = [x for x in coursdechinois if x != "beisong"]
 print(coursdechinois)
