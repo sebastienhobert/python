@@ -19,3 +19,13 @@ coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie", "beisong"]
 coursdechinoisOK = [x for x in coursdechinois if x != "beisong"]
 print(coursdechinois)
 print(coursdechinoisOK)
+
+
+# Use the range() function to create an iterable (1, 2, 3, 4 .. to 9)
+list = [x for x in range(10)]
+print(list)
+
+
+# Accept only numbers lower than 8
+list = [x for x in range(10) if x < 8]
+print(list)
