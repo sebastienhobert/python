@@ -29,3 +29,21 @@ print(list)
 # Accept only numbers lower than 8
 list = [x for x in range(10) if x < 8]
 print(list)
+
+
+# Set the values in the new list to upper case
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisMAJ = [x.upper() for x in coursdechinois]
+print(coursdechinoisMAJ)
+
+
+# Set the values in the new list to upper case
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisMAJ = [x.upper() for x in coursdechinois]
+print(coursdechinoisMAJ)
+
+
+# Set all values in the new list to "eleve"
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisAllValuesToEleve = ["eleve" for x in coursdechinois]
+print(coursdechinoisAllValuesToEleve)
