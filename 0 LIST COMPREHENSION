@@ -47,3 +47,5 @@ print(coursdechinoisMAJ)
 coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
 coursdechinoisAllValuesToEleve = ["eleve" for x in coursdechinois]
 print(coursdechinoisAllValuesToEleve)
+
+28/10/2023
