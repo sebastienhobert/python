@@ -48,4 +48,8 @@ coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
 coursdechinoisAllValuesToEleve = ["eleve" for x in coursdechinois]
 print(coursdechinoisAllValuesToEleve)
 
-28/10/2023
+
+# Return "orange" instead of "banana"
+fruits = ["apple", "banana", "cherry", "banana", "kiwi", "mango", "banana"]
+newlist = [x if x != "banana" else "orange" for x in fruits]
+print(newlist)
