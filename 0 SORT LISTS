@@ -1,0 +1,15 @@
+# Sort the list alphabetically
+fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+fruits.sort()
+print(fruits)
+
+# Sort the list numerically
+numbers = [100, 50, 65, 82, 23]
+numbers.sort()
+print(numbers)
+
+# Sort the list descending
+fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+fruits.sort(reverse = True)
+print(fruits)
+
