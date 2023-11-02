@@ -13,3 +13,17 @@ fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
 fruits.sort(reverse = True)
 print(fruits)
 
+# Sort this list, but observe how capital letters are messing up the sort() method
+fruits = ["banana", "Orange", "Kiwi", "cherry"]
+fruits.sort()
+print(fruits)
+
+# Perform a case-insensitive sort of the list
+fruits = ["banana", "Orange", "Kiwi", "cherry"]
+fruits.sort(key = str.lower)
+print(fruits)
+
+# Reverse the order of the list items
+fruits = ["banana", "Orange", "Kiwi", "cherry"]
+fruits.reverse()
+print(fruits)
