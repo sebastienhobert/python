@@ -27,3 +27,5 @@ print(fruits)
 fruits = ["banana", "Orange", "Kiwi", "cherry"]
 fruits.reverse()
 print(fruits)
+
+03/11/2023
