@@ -2,3 +2,8 @@
 fruits = ["apple", "banana", "cherry"]
 copyoffruits  = fruits.copy()
 print(copyoffruits)
+
+# Make a copy of a list with the list() method
+fruits = ["apple", "banana", "cherry"]
+methodfruits = list(fruits)
+print(methodfruits)
