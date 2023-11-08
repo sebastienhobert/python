@@ -7,3 +7,5 @@ print(copyoffruits)
 fruits = ["apple", "banana", "cherry"]
 methodfruits = list(fruits)
 print(methodfruits)
+
+08/11/2023
