@@ -1,0 +1,12 @@
+# Function Main()
+
+def getInteger():
+    number = int(input("Enter a number: "))
+    return number
+
+def Main():
+    output = getInteger()
+    print(output)
+
+if __name__=="__main__":
+    Main()
