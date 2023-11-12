@@ -1,5 +1,21 @@
 # Function Main()
 
+# Define function "getInteger"
+# This function prompts the user to enter a number through the input() function.
+# The entered value is then converted to an integer using int(), and the result is stored in the number variable.
+# Finally, the function returns the entered integer.
+
+# Define function "main"
+# It calls the getInteger() function and assigns its return value to the variable output.
+# Then, it prints the value of output.
+
+# Use the special variable "__name__"
+# It checks whether the script is being run as the main program (not imported as a module).
+# If the condition is true, it calls the Main() function.
+# This is a common practice in Python to ensure that the code inside the Main() function
+# is executed only when the script is run directly, not when it's imported as a module.
+
+
 def getInteger():
     number = int(input("Enter a number: "))
     return number
@@ -12,3 +28,4 @@ if __name__=="__main__":
     Main()
 
 11/11/2023
+12/11/2023
