@@ -1,5 +1,3 @@
-# Function Main()
-
 # Define function "getInteger"
 # This function prompts the user to enter a number through the input() function.
 # The entered value is then converted to an integer using int(), and the result is stored in the number variable.
@@ -27,5 +25,4 @@ def Main():
 if __name__=="__main__":
     Main()
 
-11/11/2023
-12/11/2023
+
