@@ -3,7 +3,6 @@
 # Print i
 # Break if i equals to six
 # Print final result
-
 for i in range(10):
     print(i, end=" ")
     if i == 6:
@@ -20,7 +19,6 @@ print()
 # Else
 # Print i
 # Increment i 
-
 i = 0
 while i < 10:
     if i == 6:
@@ -31,4 +29,20 @@ while i < 10:
     i += 1
 
 
-15/11/2023
+
+# CLASS DEFINITION - Define a class named "Dog" with two class attributes, attr1 named mammal and attr2 named dog
+# METHOD DEFINITION - Define method "fun" taking parameter self to represent instance of the class
+# METHOD IMPLEMENTATION - Inside the method "fun", print the values of the class attributes by calling the method
+# OBJECT CREATION - Create an instance of the "Dog" class and assign it to the variable "Roger"
+# METHOD INVOCATION - Call the fun method of the Dog class on the Rodger object
+class Dog:
+    attr1 = "mammal"
+    attr2 = "dog"
+    def fun(self):
+        print(self.attr1)
+        print(self.attr2)
+Rodger = Dog()
+Rodger.fun()
+
+# Print the value of the attribute attr1 for the object "Roger"
+print(Rodger.attr1)
