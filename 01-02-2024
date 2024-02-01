@@ -1,0 +1,9 @@
+"""
+ADD LIST ITEMS
+"""
+
+# Add item to the end of the list
+list = ["gauffre", "pain", "gateau"]
+list.append("galette")
+print(list)
+
