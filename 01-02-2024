@@ -1,6 +1,11 @@
-"""
-ADD LIST ITEMS
-"""
+02/02/2024
+
+#Ex: insert item as 3rd position
+list = ["huawei", "xiaomi", "oppo", "vivo"]
+list.insert(2, "samsung")
+print(list)
+
+01/02/2024
 
 # Add item to the end of the list
 list = ["gauffre", "pain", "gateau"]
