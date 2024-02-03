@@ -1,3 +1,11 @@
+03/02/2024
+
+#Ex: add the elements of otherphones to chinesephones
+chinesephones = ["huawei", "xiaomi", "oppo", "vivo"]
+otherphones = ["apple", "samsung"]
+chinesephones.extend(otherphones)
+print(chinesephones)
+
 02/02/2024
 
 #Ex: insert item as 3rd position
