@@ -1,6 +1,14 @@
+04/02/2024
+
+# Add elements of a tuple to a list
+list = ["square", "rectangle", "cube"]
+tuple = ("circle", "oval", "disk")
+list.extend(tuple)
+print(list)
+
 03/02/2024
 
-#Ex: add the elements of otherphones to chinesephones
+# Add the elements of otherphones to chinesephones
 chinesephones = ["huawei", "xiaomi", "oppo", "vivo"]
 otherphones = ["apple", "samsung"]
 chinesephones.extend(otherphones)
@@ -8,7 +16,7 @@ print(chinesephones)
 
 02/02/2024
 
-#Ex: insert item as 3rd position
+# Insert item as 3rd position
 list = ["huawei", "xiaomi", "oppo", "vivo"]
 list.insert(2, "samsung")
 print(list)
