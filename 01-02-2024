@@ -1,3 +1,11 @@
+08/02/2024
+
+# Join two list by extending
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)
+
 07/02/2024
 
 # Join two lists by appending
