@@ -1,3 +1,10 @@
+09/02/2024
+
+# Print all items in the list, one by one
+iamnobody = ["zhangchulan", "fengbaobao", "wangye", "zhugeqing", "zhanglingyu"]
+for x in iamnobody:
+    print(x)
+
 08/02/2024
 
 # Join two list by extending
