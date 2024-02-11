@@ -1,3 +1,12 @@
+11/02/2024
+
+# Print all items, using a while loop to go through all the index numbers
+iamnobody = ["zhangchulan", "fengbaobao", "wangye", "zhugeqing", "zhanglingyu"]
+i = 0 # Start at zero
+while i < (len(iamnobody)): # len() to determine length of list
+    print(iamnobody[i]) # Loop through list items by referring to their indexes
+    i = i + 1 # Remember to increase the index by 1 after each iteration
+
 10/02/2024
 
 # Print all items referring to their index number
