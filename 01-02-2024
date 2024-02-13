@@ -1,3 +1,13 @@
+13/02/2024
+
+# Display a new list containing only names with letter "a", but using for loop
+coursdechinois = ["sebastien", "lysa", "francois", "sophie"]
+coursdechinoisA = []
+for x in coursdechinois:
+    if "a" in x:
+        coursdechinoisA.append(x)
+print(coursdechinoisA)
+
 12/02/2024
 
 # Print all items (list comprehension offering shortest syntax for looping through list)
