@@ -1,3 +1,11 @@
+15/02/2024
+
+# Only accept items that are not "beisong"
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie", "beisong"]
+coursdechinoisOK = [x for x in coursdechinois if x != "beisong"]
+print(coursdechinois)
+print(coursdechinoisOK)
+
 14/02/2024
 
 # Display a new list containing only names with letter "o", but using list comprehension
