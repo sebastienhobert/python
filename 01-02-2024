@@ -1,3 +1,9 @@
+17/02/2024
+
+# Use the range() function to create an iterable (1, 2, 3, 4 .. to 9)
+list = [x for x in range(10)]
+print(list)
+
 15/02/2024
 
 # Only accept items that are not "beisong"
