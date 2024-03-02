@@ -1,3 +1,11 @@
+02/03/2024
+
+# Display a new list containing only names with letter "a", but using list comprehension
+# (With list comprehension, you can do this with one line of code)
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisA = [x for x in coursdechinois if "i" in x]
+print(coursdechinoisA)
+
 01/03/2024
 
 # Display a new list containing only names with letter "a", but using for loop
