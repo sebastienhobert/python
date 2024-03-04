@@ -1,3 +1,9 @@
+04/03/2024
+
+# Use the range() function to create an iterable (1, 2, 3, 4 .. to 9)
+list = [x for x in range(10)]
+print(list)
+
 03/03/2024
 
 # ITERATE KEYWORD - for
