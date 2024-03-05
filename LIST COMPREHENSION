@@ -1,8 +1,3 @@
-# Accept only numbers lower than 8
-list = [x for x in range(10) if x < 8]
-print(list)
-
-
 # Set the values in the new list to upper case
 coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
 coursdechinoisMAJ = [x.upper() for x in coursdechinois]
