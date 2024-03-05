@@ -1,3 +1,9 @@
+05/03/2024
+
+# Accept only numbers lower than 8
+list = [x for x in range(10) if x < 8]
+print(list)
+
 04/03/2024
 
 # Use the range() function to create an iterable (1, 2, 3, 4 .. to 9)
