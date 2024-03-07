@@ -1,3 +1,10 @@
+07/03/2024
+
+# Set the values in the new list to upper case
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisMAJ = [x.upper() for x in coursdechinois]
+print(coursdechinoisMAJ)
+
 06/03/2024
 
 # CLASS DEFINITION - Define a class named "Dog" with two class attributes, attr1 named mammal and attr2 named dog
