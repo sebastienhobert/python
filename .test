@@ -1,3 +1,10 @@
+08/03/2024
+
+# Set all values in the new list to "eleve"
+coursdechinois = ["sebastien", "lysa", "alice", "francois", "sophie"]
+coursdechinoisAllValuesToEleve = ["eleve" for x in coursdechinois]
+print(coursdechinoisAllValuesToEleve)
+
 07/03/2024
 
 # Set the values in the new list to upper case
