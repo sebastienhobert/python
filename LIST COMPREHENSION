@@ -1,7 +1,0 @@
-# Return "orange" instead of "banana"
-fruits = ["apple", "banana", "cherry", "banana", "kiwi", "mango", "banana"]
-newlist = [x if x != "banana" else "orange" for x in fruits]
-print(newlist)
-
-30/10/2023
-31/10/2023
