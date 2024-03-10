@@ -1,12 +1,3 @@
-"""
-REMOVE LIST ITEMS
-"""
-
-#Ex: remove "usa"
-countries = ["france", "usa", "canada", "china", "japan", "south korea"]
-countries.remove("usa")
-print(countries)
-
 #Ex: remove the first occurrence of "usa"
 countries = ["france", "usa", "canada", "china", "japan", "usa", "south korea", "usa", "usa"]
 countries.remove("usa")
