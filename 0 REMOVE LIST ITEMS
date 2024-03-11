@@ -1,8 +1,3 @@
-#Ex: remove the first occurrence of "usa"
-countries = ["france", "usa", "canada", "china", "japan", "usa", "south korea", "usa", "usa"]
-countries.remove("usa")
-print(countries)
-
 #Ex: remove the first item
 countries = ["france", "usa", "canada", "china", "japan", "south korea"]
 countries.pop(0)
