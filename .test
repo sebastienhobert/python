@@ -1,3 +1,10 @@
+11/03/2024
+
+#Ex: remove the first occurrence of "usa"
+countries = ["france", "usa", "canada", "china", "japan", "usa", "south korea", "usa", "usa"]
+countries.remove("usa")
+print(countries)
+
 10/03/2024
 
 #Ex: remove "usa"
