@@ -1,3 +1,10 @@
+13/03/2024
+
+#Ex: remove the last item
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+countries.pop()
+print(countries)
+
 12/03/2024
 
 #Ex: remove the first item
