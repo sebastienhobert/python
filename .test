@@ -1,3 +1,10 @@
+14/03/2024
+
+#Ex: remove the first item using keyword "del"
+countries = ["france", "usa", "canada", "china", "japan", "south korea"]
+del countries[0]
+print(countries)
+
 13/03/2024
 
 #Ex: remove the last item
