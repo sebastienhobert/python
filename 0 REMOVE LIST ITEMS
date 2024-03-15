@@ -1,8 +1,0 @@
-# Delete the entire list
-countries = ["france", "usa", "canada", "china", "japan", "south korea"]
-del countries
-
-# Clear the list content
-countries = ["france", "usa", "canada", "china", "japan", "south korea"]
-countries.clear()
-print(countries)
