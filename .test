@@ -1,3 +1,10 @@
+17/03/2024
+
+# Import a library called 'random' and print a random number between 1 to 100
+# 'randrange' is a method
+import random
+print(random.randrange(1, 100))
+
 16/03/2024
 
 # Sort the list alphabetically
