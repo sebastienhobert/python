@@ -1,3 +1,41 @@
+18/03/2024
+
+"""
+----------------------------
+Define function 'getInteger'
+----------------------------
+(1) Prompt the user to enter a number through the input() function
+NOTE:
+- the entered value is then converted to an INTEGER using int()
+- the result is stored in the variable 'number'
+
+(2) Finally, the function returns the entered integer
+
+----------------------
+Define function 'Main'
+----------------------
+(1) It calls the getInteger() function and assigns its return value to the variable 'output'
+(2) It prints the value of 'output'
+
+-----------------------------------
+Use the special variable '__name__'
+-----------------------------------
+(1) It checks whether the script is being run as the main program (not imported as a module)
+(2) If the condition is true, it calls the Main() function
+NOTE:
+- this is a common practice in Python to ensure that the code inside the Main() function is executed only when the script is run directly, not when it's imported as a module
+"""
+def getInteger():
+    number = int(input("Enter a number: "))
+    return number
+
+def Main():
+    output = getInteger()
+    print(output)
+
+if __name__=="__main__":
+    Main()
+
 17/03/2024
 
 # Import a library called 'random' and print a random number between 1 to 100
