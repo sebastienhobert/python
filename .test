@@ -1,3 +1,13 @@
+19/03/2024
+
+# Access element at index 2
+arr = [1, 2, 3, 4]
+print(arr[2])
+
+# Print "W" at index 7
+a = "Hello, World!"
+print(a[7])
+
 18/03/2024
 
 """
