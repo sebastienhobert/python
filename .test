@@ -1,3 +1,19 @@
+21/03/2024
+
+# The length of an array
+# Use the len() method to return the length of an array (no of element in an array)
+# Ex : return the number of elements in the cars array:
+cars = ["Ford", "Volvo", "BMW"]
+x = len(cars)
+print(x)
+
+# Looping array elements
+# You can use the "for in" loop to loop through all the elements of an array
+# Ex: print each item in the cars array
+cars = ["Toyota", "Mazda", "Kia", "BYD"]
+for x in cars:
+    print(x)
+
 20/03/2024
 
 # Arrays are used to store multiple values in one single variable
