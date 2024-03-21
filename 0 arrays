@@ -1,26 +1,4 @@
 """
-The Length of an array
-Use the len() method to return the length of an array (the number of elements in an array)
-Ex: return the number of elements in the cars array: 
-"""
-cars = ["Ford", "Volvo", "BMW"]
-x = len(cars)
-print(x)
-
-
-
-"""
-Looping Array Elements
-You can use the 'for in' loop to loop through all all the elements of an array
-Ex: print each item in the cars array:
-"""
-cars = ["Ford", "Volvo", "BMW"]
-for x in cars:
-    print(x)
-
-
-
-"""
 Adding Array Elements
 You can use the append() method to add an element to an array.
 Ex: add one more element to the cars array:
