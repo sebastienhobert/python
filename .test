@@ -1,3 +1,12 @@
+22/03/2024
+
+# Adding Array Elements
+# You can use the append() method to add an element to an array
+# Ex: add one more element to the cars array
+cars = ["BYD", "Toyota", "Hyundai"]
+cars.append("MG")
+print(cars)
+
 21/03/2024
 
 # The length of an array
