@@ -1,14 +1,4 @@
 """
-Removing Array Elements
-You can use the pop() method to remove an element from the array
-Ex: delete the second element of the cars array:
-"""
-cars = ["Ford", "Volvo", "BMW"]
-cars.pop(1)
-print(cars)
-
-
-"""
 You can also use the remove() method to remove an element from the array:
 Ex: delete the element that has the value "Volvo":
 """
