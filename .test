@@ -1,3 +1,12 @@
+23/03/2024
+
+# Removing Array Elements
+# You can use the pop() method to remove an element from the array
+# Ex: delete the second element of the cars array
+cars = ["BYD", "Toyota", "Hyundai"]
+cars.pop(1)
+print(cars)
+
 22/03/2024
 
 # Adding Array Elements
