@@ -1,3 +1,11 @@
+24/03/2024
+
+# You can also use the remove() method to remove an element from an array
+# Ex: Delete the element that has the value "Volvo"
+cars = ["Ford", "Volvo", "BMW"]
+cars.remove("Volvo")
+print(cars)
+
 23/03/2024
 
 # Removing Array Elements
