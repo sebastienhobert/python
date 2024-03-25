@@ -1,3 +1,10 @@
+25/03/2024
+
+# Only accept items that are not "apple"
+fruits = ["apple", "banana", "apple", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if x != "apple"]
+print(newlist)
+
 24/03/2024
 
 # You can also use the remove() method to remove an element from an array
