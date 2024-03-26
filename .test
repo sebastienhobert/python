@@ -1,3 +1,18 @@
+26/03/2024
+
+# You can't copy a list simply by typing list2 = list1
+# Because list2 will only be a reference to list1
+# And change made in list1 will automatically also be made in list2
+# There are ways to make a copy, one way is to use built-in List method copy()
+thislist = ["apple", "banana", "cherry"]
+thislist2 = thislist.copy()
+print(thislist2)
+
+# Another way to make a copy is to use the built-in method list()
+fruits = ["apple", "banana", "cherry"]
+fruits_copy = list(fruits)
+print(fruits_copy)
+
 25/03/2024
 
 # Only accept items that are not "apple"
