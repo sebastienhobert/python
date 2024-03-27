@@ -1,3 +1,22 @@
+27/03/2024
+
+# Python is an oriented programming language
+# Almost everything in Python is an object, with its properties and methods
+# A class is like an object constructor, or a blueprint for creating objects
+
+# CREATE A CLASS
+# Ex: create a class named Myclass with a property named x
+class Myclass:
+    x = 5
+
+# CREATE AN OBJECT
+# Now we can use the class named Myclass to create objects
+# Ex: create an object named p1 and print the value of x
+class Myclass:
+    x = 5
+p1 = Myclass()
+print(p1.x)
+
 26/03/2024
 
 # You can't copy a list simply by typing list2 = list1
