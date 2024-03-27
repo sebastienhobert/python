@@ -1,18 +1,4 @@
 """
-Python is an oriented programming language
-Almost everything in Python is an object, with its properties and methods
-A class is like an object constructor, or a blueprint for creating objects
-"""
-
-"""
-To create a class, use the keyword class
-Ex: create a class named MyClass, with a property named x:
-"""
-class Myclass:
-    x = 5
-
-
-"""
 CREATE AN OBJECT
 Now we can use the class named MyClass to create objects
 Ex: create an object named p1m and print the value of x:
