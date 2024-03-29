@@ -1,3 +1,16 @@
+29/03/2024
+
+# The __str__() function
+# It controls what should be returned when the class object is represented as a string
+# If the __str__() function is not set, the string representation of the object is returned
+#Ex: the string representation of an object WITHOUT the __str__() function
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.name = age
+p1 = Person("Sebastien", 27)
+print(p1)
+
 28/03/2024
 
 # The __init__() function
