@@ -1,23 +1,4 @@
 """
-OBJECT METHODS
-Objects can also contain methods. Methods in objects are functions that belong to the object.
-Let us create a method in the Person class
-Ex: insert a function that prints a greeting, and execute it on the p1 object:
-"""
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-        
-    def myfunc(self):
-        print("Hello my name is " + self.name)
-        
-p1 = Person("Sebastien", 26)
-p1.myfunc()
-
-
-
-"""
 THE SELF PARAMETER 
 The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class
 It doesn't have to be named self, you can call it whatever you like, but it has to be the first parameter of any function in the class
