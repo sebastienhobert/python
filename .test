@@ -1,9 +1,27 @@
+01/04/2024
+
+class Vocabulary:
+    def __init__(self, chinese, english):
+        self.chinese = chinese
+        self.english = english
+
+    def function(self):
+        print("The translation for " + self.chinese + " is: " + self.english)
+
+character1 = Vocabulary("农", "Thick")
+character2 = Vocabulary("戒指", "Finger ring")
+character3 = Vocabulary("插", "To insert")
+character4 = Vocabulary("沟渠", "Irrigation canal")
+character5 = Vocabulary("袭击", "Surprise attack")
+
+character3.function()
+
 31/03/2024
 
 # OBJECT METHOD
 # Objects can also contain methods
 # Methods in objects are functions that belong to the object
-# Ex: insert a function that prints a greeting, and execute it on the p1 object
+# Ex: insert a function that prints a greeting, and execute it on the p3 object
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -13,7 +31,10 @@ class Person:
         print("Hello my name is " + self.name)
 
 p1 = Person("Sebastien", 27)
-p1.myfunc()
+p2 = Person("Clara", 26)
+p3 = Person("Raphael", 33)
+
+p3.myfunc()
 
 30/03/2024
 
