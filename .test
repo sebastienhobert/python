@@ -1,3 +1,19 @@
+02/04/2024
+
+class language:
+    def __init__(self, english, chinese):
+        self.english = english
+        self.chinese = chinese
+
+    def func(self):
+        print("Translation for " + self.english + " is " + self.chinese)
+
+word1 = language("freedom of speech", "言论自由")
+word2 = language("turbid water", "浊水")
+word3 = language("hover in the air", "飞翔")
+
+word2.func()
+
 01/04/2024
 
 class Vocabulary:
