@@ -1,3 +1,21 @@
+03/04/2024
+
+class vocabulary:
+    def __init__(self, mandarin, english):
+        self.mandarin = mandarin
+        self.english = english
+
+    def funct(self):
+        print(self.mandarin + " in english is " + self.english)
+
+voc1 = vocabulary("签证", "visa")
+voc2 = vocabulary("轻", "light")
+voc3 = vocabulary("缺少", "to be short of")
+voc4 = vocabulary("却", "however")
+voc5 = vocabulary("确实", "true")
+
+voc1.funct()
+
 02/04/2024
 
 class language:
