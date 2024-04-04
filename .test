@@ -1,3 +1,19 @@
+04/04/2024
+
+class Language:
+    def __init__(self, chinese, english):
+        self.english = english
+        self.chinese = chinese
+
+    def MyFunc(self):
+        print(self.chinese + " can be translated by " + self.english)
+
+Voc1 = Language("幻象", "illusion")
+Voc2 = Language("攀", "to climb")
+Voc3 = Language("鞭子", "whip")
+
+Voc3.MyFunc()
+
 03/04/2024
 
 class vocabulary:
