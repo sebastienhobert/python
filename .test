@@ -1,3 +1,19 @@
+05/04/2024
+
+class Words:
+    def __init__(self, english, chinese):
+        self.english = english
+        self.chinese = chinese
+
+    def myFunc(self):
+        print(self.english + " in Chinese is: " + self.chinese)
+
+voc1 = Words("comb", "梳子")
+voc2 = Words("to fall down", "坠")
+voc3 = Words("prejudice", "偏见")
+
+voc2.myFunc()
+
 04/04/2024
 
 class Language:
