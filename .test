@@ -1,3 +1,26 @@
+07/04/2024
+
+# It doesn't have to be named self
+# But it has to be the first parameter of any function in the class
+class Language:
+    def __init__(lang, chinese, english):
+        lang.chinese = chinese
+        lang.english = english
+
+    def myfunc(l):
+        print(l.chinese + " in English can be translated as: " + l.english)
+
+word1 = Language("适逢", "to just happen to coincidence with")
+word2 = Language("占", "to occupy (rank, land..)")
+word3 = Language("打手势", "to make a gesture")
+
+word2.myfunc()
+
+
+# You can modify properties on objects like this
+word2.english = "to seize"
+word2.myfunc()
+
 06/04/2024
 
 class Dict:
