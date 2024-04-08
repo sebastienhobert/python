@@ -1,3 +1,14 @@
+08/04/2024
+
+class language:
+    def __init__(self, chinese):
+        self.chinese = chinese
+    def __len__(self):
+        return len(self.chinese)
+
+voc = language("香消玉殒xiāngxiāoyùyǔn")
+print(len(voc))
+
 07/04/2024
 
 # It doesn't have to be named self
