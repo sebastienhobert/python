@@ -1,3 +1,14 @@
+09/04/2024
+
+class Language:
+    def __init__(self, chinese):
+        self.chinese = chinese
+    def __len__(self):
+        return len(self.chinese)
+
+vocabulary = Language("各个击破")
+print(len(vocabulary))
+
 08/04/2024
 
 class language:
