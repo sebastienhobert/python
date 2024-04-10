@@ -1,3 +1,14 @@
+10/04/2024
+
+class Language:
+    def __init__(self, chinese):
+        self.chinese = chinese
+    def __len__(self):
+        return len(self.chinese)
+
+voc = Language("破例")
+print(len(voc))
+
 09/04/2024
 
 class Language:
