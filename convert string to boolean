@@ -1,5 +1,0 @@
-string = "Zhuge Liang"
-boolean_value = bool(string)
-print(boolean_value)
-
-print(type(boolean_value))
