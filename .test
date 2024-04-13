@@ -1,3 +1,15 @@
+13/04/2024 (past midnight)
+
+word = "mississippi"
+counter = {}
+
+for letter in word:
+    if letter not in counter:
+        counter[letter] = 0
+    counter[letter] += 1
+
+print(counter)
+
 12/04/2024
 
 # Convert string to boolean
