@@ -1,3 +1,15 @@
+14/04/2024
+
+word = "The Epic Version of Strange Tales of Tang Dynasty"
+counter = {}
+
+for letter in word:
+    if letter not in counter:
+        counter[letter] = 0
+    counter[letter] +=1
+
+print(counter)
+
 13/04/2024 (past midnight)
 
 word = "mississippi"
