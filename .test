@@ -1,6 +1,17 @@
+16/04/2024
+
+# Return the year and name of weekday
+import datetime
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime("%A"))
+
 15/04/2024
 
-x
+# Import the datetime module and display the current date
+import datetime
+x = datetime.datetime.now()
+print(x)
 
 14/04/2024
 
