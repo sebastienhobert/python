@@ -1,3 +1,12 @@
+17/04/2024
+
+# To create a date
+# We can use datetime() class constructor of datetime module
+# Ex: create a date object
+import datetime
+x = datetime.datetime(2024, 4, 17)
+print(x)
+
 16/04/2024
 
 # Return the year and name of weekday
