@@ -1,3 +1,15 @@
+18/04/2024
+
+# The strftime() method
+# The datetime object has a method for formatting date objects into readable strings
+# The method is called strftime(), and takes one parameter, format, to specify the format of the returned string
+# Ex: Display the name of the month
+
+import datetime
+x = datetime.datetime(2024, 4, 18)
+print(x.strftime("%B"))
+# print(x)
+
 17/04/2024
 
 # To create a date
