@@ -1,3 +1,10 @@
+19/04/2024
+
+# To delete a file, you must import the OS module, and run its os.remove() function
+# Ex : remove the file "test.txt"
+import os
+os.remove("test.txt")
+
 18/04/2024
 
 # The strftime() method
