@@ -1,3 +1,14 @@
+20/04/2024
+
+# Check if files exists
+# To avoid getting an error you might want to check if the file exists before you try to delete it
+# Ex: check if the files exists, then delete it
+import os
+if os.path.exists("test.txt"):
+    os.remove("test.txt")
+else:
+    print("The file does not exit.")
+
 19/04/2024
 
 # To delete a file, you must import the OS module, and run its os.remove() function
