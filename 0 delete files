@@ -1,8 +1,0 @@
-"""
-DELETE FOLDER
-To delete an entire folder, use the os.rmdir() method
-"""
-#Ex: remove the folder "myfolder"
-import os
-os.rmdir("myfolder")
-
