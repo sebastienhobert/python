@@ -1,3 +1,11 @@
+21/04/2024
+
+# Delete folder
+# To delete an entire folder, use the os.rmdir() method
+# Remove the folder "test"
+import os
+os.rmdir("test")
+
 20/04/2024
 
 # Check if files exists
