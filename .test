@@ -1,3 +1,13 @@
+23/04/2024
+
+# Numpy is used to work with arrays
+# The array object in NumPy is called "ndarray"
+# Ex: create a numpy array
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
+
 22/04/2024
 
 x = "awesome"
