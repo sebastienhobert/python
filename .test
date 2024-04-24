@@ -1,3 +1,36 @@
+24/04/2024
+
+# GENERATE RANDOM NUMBER
+# Ex: generate a random integer from 0 to 100
+from numpy import random
+x = random.randint(100)
+print(x)
+
+# GENERATE RANDOM FLOAT (0 to 1)
+# The random module's rand() method returns a random float between 0 and 1
+# Ex: generate a random float from 0 to 1
+from numpy import random
+x = random.rand()
+print(x)
+
+# RANDOM DISTRIBUTION
+# Ex: return one of the values in an array
+from numpy import random
+x = random.choice([3, 5, 7, 8, 9])
+print(x)
+
+# RANDOM DISTRIBUTION
+# The choice() method allows us to specify the probability for each value
+# The probability is set by a number between 0 and 1
+from numpy import random
+x = random.choice([5, 2, 8 ,1], p=[0.1, 0.1, 0.7, 0.1], size=100)
+print(x)
+
+# Ex: same example, but return a 2-D array with 3 rows, each containing 5 values
+from numpy import random
+x = random.choice([3, 8, 4, 3], p=[0.1, 0.7, 0.1, 0.1], size=(3, 5))
+print(x)
+
 23/04/2024
 
 # Numpy is used to work with arrays
