@@ -1,4 +1,0 @@
-Dict = {1: 'Geek', 2: 'For', 3: 'Geeks'}
-
-print(Dict)
-print(Dict[3])
