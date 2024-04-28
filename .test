@@ -1,3 +1,14 @@
+28/04/2024
+
+# Accessing Items
+# Ex: get the value of the "model" key
+thisdict = {
+    "brand": "Nio",
+    "model": "ET7",
+    "year": 2022
+}
+x = (thisdict["model"])
+
 27/04/2024
 
 # dict() constructor
