@@ -1,3 +1,31 @@
+29/04/2024
+
+def encrypt(key, plaintext):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted_text = ""
+
+    for char in plaintext:
+        if char.islower():
+            shifted_index = (alphabet.index(char) + key) % 26
+            encrypted_text += alphabet[shifted_index]
+        else:
+            encrypted_text += char
+
+    return encrypted_text
+
+def decrypt(key, ciphertext):
+    return encrypt(-key, ciphertext)
+
+# Example usage
+plaintext = "hello world"
+key = 3
+encrypted_text = encrypt(key, plaintext)
+print("Encrypted:", encrypted_text)
+
+decrypted_text = decrypt(key, encrypted_text)
+print("Decrypted:", decrypted_text)
+
+
 28/04/2024
 
 # Accessing Items
