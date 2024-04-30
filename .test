@@ -1,3 +1,67 @@
+30/04/2024
+
+"""
+  3. Ecrire une fonction encrypt qui prend en paramètre un entier key et une chaîne de
+caractères plaintext et qui renvoie le plaintext avec chacune des lettres décalées
+de key position dans l’alphabet. Dans un premier temps, le mot plaintext ne
+contient que des lettres minuscules. Tester votre fonction.
+"""
+
+def encrypt(key, plaintext):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted_text = ""
+
+    for char in plaintext:
+        if char.isalpha():
+            shifted_index = (alphabet.index(char) + key) % 26
+            encrypted_text += alphabet[shifted_index]
+        else:
+            encrypted_text += char
+
+    return encrypted_text
+
+# Test of function
+plaintext = "sebastien"
+print("- Plaintext:", plaintext)
+key = 1
+encrypted_text = encrypt(key, plaintext)
+print("- Encrypted text:", encrypted_text)
+
+"""
+ 4. Ecrire la fonction de déchiffrement decrypt correspondante (de même, elle prend
+en entrée un entier key et une chaine ciphertext et renvoie le plaintext correspondant) et la tester sur quelques exemples.
+"""
+
+def decrypt(key, ciphertext):
+    return encrypt(-key, ciphertext)
+
+# Test of function
+plaintext = "sebastien"
+decrypted_text = decrypt(key, encrypted_text)
+print("- Decrypted text:", decrypted_text)
+
+"""
+5. Comment attaquer facilement ce chiffrement ? Retrouver le clair correspondant à la
+valeur ciphertext dans cesar.py.
+"""
+ciphertext = "gz xcdaamzhzio kvm yzxvgvbz zno avdwgz!"
+
+def decrypt(ciphertext, key):
+    decrypted_text = ""
+    for char in ciphertext:
+        if char.isalpha():
+            decrypted_text += chr(((ord(char) - ord('a') - key) % 26) + ord('a'))
+        else:
+            decrypted_text += char
+    return decrypted_text
+
+def attack(ciphertext):
+    for key in range(25):
+        decrypted_text = decrypt(ciphertext, key)
+        print(f"Hacking en cours ... tentative == {key}: {decrypted_text}")
+
+attack(ciphertext)
+
 29/04/2024
 
 def encrypt(key, plaintext):
@@ -24,7 +88,6 @@ print("Encrypted:", encrypted_text)
 
 decrypted_text = decrypt(key, encrypted_text)
 print("Decrypted:", decrypted_text)
-
 
 28/04/2024
 
