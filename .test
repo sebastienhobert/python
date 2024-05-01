@@ -1,3 +1,26 @@
+01/05/2024
+
+def encrypt(key, plaintext):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted_txt = ""
+
+    for char in plaintext:
+        if char.isalpha():
+            shifted_index = (alphabet.index(char) + key) % 26
+            encrypted_txt += alphabet[shifted_index]
+        else:
+            encrypted_txt += char
+            
+            #return encrypted_txt ===> return only letter "l"
+    return encrypted_txt
+
+# TEST
+plaintext = "kampot"
+print("Plaintext is:", plaintext)
+key = 1
+encrypted_txt = encrypt(key, plaintext)
+print("Encrypted text is: ", encrypted_txt)
+
 30/04/2024
 
 """
