@@ -1,3 +1,23 @@
+02/05/2024
+
+def encrypt(key, plaintext):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted_text = ""
+
+    for char in plaintext:
+        if char.isalpha():
+            shifted_index = (alphabet.index(char) + key) % 26
+            encrypted_text += alphabet[shifted_index]
+        else:
+            encrypted_text += char
+
+    return encrypted_text
+
+plaintext = "strange tales of tang dynasty"
+key = 1
+encrypted_text = encrypt(key, plaintext)
+print("Encrypted:", encrypted_text)
+
 01/05/2024
 
 def encrypt(key, plaintext):
