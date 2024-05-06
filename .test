@@ -1,6 +1,26 @@
+06/05/2024
+
+# Add a new item to the original dictionary, and see that the keys list gets updated as well
+japaneseCar = {
+    "brand": "Toyota",
+    "model": "Prius",
+    "year": "2011"
+}
+x = japaneseCar.keys()
+print(x)
+japaneseCar["price"] = 25,000
+print(x)
+
 04/05/2024
 
-a
+# The keys() method will return a list of all keys in the dictionary
+# Get a list of keys
+japaneseCar = {
+    "brand": "Toyota",
+    "model": "Prius",
+    "year": "2011"
+}
+x = japaneseCar.keys()
 
 03/05/2024
 
