@@ -1,3 +1,14 @@
+07/05/2025
+
+# Get a list of values
+japaneseCar = {
+    "brand": "Toyota",
+    "model": "Prius",
+    "year": "2011"
+}
+x = japaneseCar.values()
+print(x)
+
 06/05/2024
 
 # Add a new item to the original dictionary, and see that the keys list gets updated as well
