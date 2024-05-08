@@ -1,4 +1,17 @@
-07/05/2025
+08/05/2024
+
+car = {
+    "brand": "Nio",
+    "model": "ET7",
+    "price": 69200,
+    "year": 2022,
+}
+x = car.values()
+print(x) # Before the change
+car["year"] = 2023
+print(x) # After the change
+
+07/05/2024
 
 # Get a list of values
 japaneseCar = {
