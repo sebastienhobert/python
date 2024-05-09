@@ -1,3 +1,17 @@
+09/05/2024
+
+# Add a new item to the original dictionary, and see that the values list gets updated as well
+car = {
+    "brand": "Nio",
+    "model": "ET7",
+    "price": 69200,
+    "year": 2022,
+}
+x = car.values()
+print(x)
+car["power in KW"] = 480
+print(x) # After the change 
+
 08/05/2024
 
 car = {
