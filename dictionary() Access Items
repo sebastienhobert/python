@@ -1,15 +1,3 @@
-#Add a new item to the original dictionary, and see that the values list gets updated as well:
-car = {
-    "brand": "Nio",
-    "model": "ET7",
-    "price": 69200,
-    "year": 2022,
-}
-x = car.values()
-print(x) ##before the change
-car["power in kW"] = 480
-print(x) #after the change
-
 #Get Items
 #The items() method will return each item in a dictionary, as tuples in a list.
 #Get a list of the key:value pairs
