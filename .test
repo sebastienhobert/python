@@ -1,3 +1,14 @@
+12/05/2024
+
+# Adding an item to the dictionary is done by using a new index key and assigning a value to it
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV["color"] = "blue"
+print(ChineseEV)
+
 11/05/2024
 
 # To determine if a specified key is present in a dictionary use the in keyword
