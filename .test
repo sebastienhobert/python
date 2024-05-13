@@ -1,3 +1,16 @@
+13/05/2024
+
+# Update dictionary
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV["color"] = "blue"
+print(ChineseEV)
+ChineseEV.update({"price": 29900})
+print(ChineseEV)
+
 12/05/2024
 
 # Adding an item to the dictionary is done by using a new index key and assigning a value to it
