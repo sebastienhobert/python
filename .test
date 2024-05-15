@@ -1,3 +1,14 @@
+15/05/2024
+
+# update()
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV.update({"year":2023})
+print(ChineseEV)
+
 14/05/2024
 
 # Change values
