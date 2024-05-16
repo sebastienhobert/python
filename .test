@@ -1,3 +1,27 @@
+16/05/2024
+
+# Copy a dictionary
+# You cannot copy a dictionary simply by typing dict2 = dict1
+# Because dict2 will only be a reference to dict1
+# And change made to in dict1 will automatically also be made in dict2
+# There are ways to make a copy, one way is to use the built-in Dictionary method copy()
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV2 = ChineseEV.copy()
+print(ChineseEV2)
+
+# Another way to make a copy is to use the built-in function dict()
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV_2 = dict(ChineseEV)
+print(ChineseEV_2)
+
 15/05/2024
 
 # update()
