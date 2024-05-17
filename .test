@@ -1,6 +1,25 @@
 17/05/2024
 
-debt
+# Loop dictionary
+# When looping through a dictionary, the return value are the keys of the dictionary
+# But there are methods to return the values as well
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+for x in ChineseEV:
+    print(x)
+
+
+# Print all values in the dictionary, one by one:
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+for x in ChineseEV:
+    print(ChineseEV[x])
 
 16/05/2024
 
