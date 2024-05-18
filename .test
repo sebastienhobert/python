@@ -1,3 +1,14 @@
+18/05/2024
+
+# You can use the values() method to return values of a dictionary
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+for x in ChineseEV.values():
+    print(x)
+
 17/05/2024
 
 # Loop dictionary
