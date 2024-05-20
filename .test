@@ -1,3 +1,23 @@
+20/05/2024
+
+# Nested dictionary
+# Create a dictionary that contains three dictionaries
+myFriendsandI = {
+    "person1" : {
+        "name" : "Sebastien",
+        "year" : 1996
+    },
+    "person2" : {
+        "name" : "Jean-Paul",
+        "year" : 1985
+    },
+    "person3" : {
+        "name" : "Clara",
+        "year" : 1997
+    }
+}
+print(myFriendsandI)
+
 19/05/2024
 
 # You can use the keys() method to return the keys of a dictionary
