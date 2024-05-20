@@ -1,23 +1,4 @@
-#Nested Dictionaries
-#A dictionary can contain dictionaries, this is called nested dictionaries.
-#Create a dictionary that contain three dictionaries:
-myFriendsAndI = {
-  "person1" : {
-    "name" : "Sebastien",
-    "year" : 1996
-  },
-  "person2" : {
-    "name" : "Clara",
-    "year" : 1997
-  },
-  "person3" : {
-    "name" : "Laetitia",
-    "year" : 1992
-  }
-}
-
-
-#Or, if you want to add three dictionaries into a new dictionary:
+# Or, if you want to add three dictionaries into a new dictionary:
 #Create three dictionaries, then create one dictionary that will contain the other three dictionaries:
 person1 = {
     "name" : "Sebastien",
