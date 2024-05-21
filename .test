@@ -1,3 +1,28 @@
+21/05/2024
+
+# Nested dictionary
+# Create three dictionaries, then create one dictionary that will contain them
+person1 = {
+    "name" : "Sebastien",
+    "year" : 1996
+    }
+person2 = {
+    "name" : "Jean-Paul",
+    "year" : 1985
+    }
+person3 = {
+    "name" : "Josephine",
+    "year" : 1997
+    }
+
+personDictionary = {
+    "person1" : person1,
+    "person2" : person2,
+    "person3" : person3
+}
+
+print(personDictionary)
+
 20/05/2024
 
 # Nested dictionary
