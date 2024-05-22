@@ -1,3 +1,22 @@
+22/05/2024
+
+# To access items from a nested dictionary, you use the name of the dictionaries, starting with the outer dictionary
+myFriendsandI = {
+    "person1" : {
+        "name" : "Sebastien",
+        "year" : 1996
+    },
+    "person2" : {
+        "name" : "Jean-Paul",
+        "year" : 1985
+    },
+    "person3" : {
+        "name" : "Clara",
+        "year" : 1997
+    }
+}
+print(myFriendsandI["person3"]["year"])
+
 21/05/2024
 
 # Nested dictionary
