@@ -1,3 +1,14 @@
+23/05/2024
+
+# pop() method to remove the item with a key name
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV.pop("year")
+print(ChineseEV)
+
 22/05/2024
 
 # To access items from a nested dictionary, you use the name of the dictionaries, starting with the outer dictionary
