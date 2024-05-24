@@ -1,3 +1,14 @@
+24/05/2024
+
+# The popitem() method removes the last inserted item
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+ChineseEV.popitem()
+print(ChineseEV)
+
 23/05/2024
 
 # pop() method to remove the item with a key name
