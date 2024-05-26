@@ -1,3 +1,15 @@
+25/05/2024
+
+# The clear() method empties the dictionary
+ChineseEV = {
+  "brand": "Xiaomi",
+  "model": "SU7",
+  "year": 2024
+}
+print(ChineseEV)
+ChineseEV.clear()
+print(ChineseEV)
+
 24/05/2024
 
 # The popitem() method removes the last inserted item
