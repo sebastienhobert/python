@@ -1,4 +1,17 @@
-25/05/2024
+27/05/2024
+
+list1 = ["banana", "clementine"]
+list2 = ["chocolat", "cereal"]
+list1.extend(list2)
+print(list1)
+
+# You can add any iterable object (tuples, sets, dictionaries, etc.)
+fruits = ["orange", "kiwi"]
+dairy = ("milk", "yogurt")
+fruits.extend(dairy)
+print(fruits)
+
+26/05/2024
 
 # The clear() method empties the dictionary
 ChineseEV = {
