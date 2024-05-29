@@ -1,3 +1,13 @@
+29/05/2024
+
+# With the break statement we can stop the loop before it has looped through all items
+# Ex: exit the loop when x is "banana"
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+    if x == "banana":
+        break
+
 28/05/2024
 
 # for loop is used for iterating over a sequence (list, tuple, set, dictionary, string)
