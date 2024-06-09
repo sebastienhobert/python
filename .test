@@ -1,3 +1,14 @@
+09/06/2024
+
+# A nested loop is a loop inside a loop
+# The inner loop will be executed one time for each iteration of the outer loop
+# Ex: print each adjective for every fruit
+adj = ["big", "tasty"]
+fruits = ["apple", "ananas"]
+for x in adj:
+    for y in fruits:
+        print(x, y)
+
 08/06/2024
 
 # The "else" block will not be executed if the loop is stopped by a break statement
