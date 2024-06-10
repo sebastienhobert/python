@@ -1,3 +1,10 @@
+10/06/2024
+
+# format() method
+age = 27
+txt = "My name is Sebastien and I am {}"
+print(txt.format(age))
+
 09/06/2024
 
 # A nested loop is a loop inside a loop
