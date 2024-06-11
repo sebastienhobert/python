@@ -1,3 +1,10 @@
+11/06/2024
+
+quantity = 1600
+price = 8
+myorder = "I want {} yuan at {} euros."
+print(myorder.format(quantity, price))
+
 10/06/2024
 
 # format() method
