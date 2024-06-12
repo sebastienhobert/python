@@ -1,5 +1,0 @@
-quantity = 10
-price = 200
-myorder = "I want {} BNB at {} euros."
-print(myorder.format(quantity, price))
-
