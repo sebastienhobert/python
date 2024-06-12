@@ -1,3 +1,10 @@
+12/06/2024
+
+# Call a function
+def my_function():
+    print("Hello from a function!")
+my_function()
+
 11/06/2024
 
 quantity = 1600
