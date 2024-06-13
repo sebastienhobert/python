@@ -1,3 +1,14 @@
+13/06/2024
+
+# Arguments
+# The following example has a function with one argument (fname)
+# When the function is called, we pass along a first name, which is used inside the function to print the full name
+def my_function(fname):
+    print(fname + " from Three Kingdoms")
+my_function("Liu Bei")
+my_function("Cao Cao")
+my_function("Sun Jian")
+
 12/06/2024
 
 # Call a function
