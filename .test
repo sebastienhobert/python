@@ -1,3 +1,10 @@
+15/06/2024
+
+def my_function(fname):
+    print(fname + " from Polygram Karaoke")
+my_function("Vivian Chow")
+my_function("Jackie Cheung")
+
 14/06/2024
 
 def my_function(fname):
