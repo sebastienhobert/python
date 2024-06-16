@@ -1,3 +1,14 @@
+16/06/2024
+
+def my_function(fname):
+    print(fname + " from daily Chinese vocabulary")
+my_function("完善")
+my_function("在乎")
+my_function("意图")
+my_function("责备")
+my_function("思维")
+my_function("租赁")
+
 15/06/2024
 
 def my_function(fname):
