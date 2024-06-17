@@ -1,3 +1,12 @@
+17/06/2024
+
+# Parameters vs Arguments
+# They can be used for the same thing: information that are passed into a function
+
+# From a function perspective:
+# - Parameter is a variable listed inside the () in the function definition
+# - Argument is the value that is sent to the function when it is called
+
 16/06/2024
 
 def my_function(fname):
