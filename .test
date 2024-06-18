@@ -1,3 +1,12 @@
+18/06/2024
+
+# An argument is the value that is sent to the function when it is called
+# By default, a function must be called with the correct number of arguments
+# So if your functions expects two arguments, you have to call the function with two arguments
+def my_function(fname, lname):
+    print(fname + " " + lname)
+my_function("Nana Ouyang", "Beverly Zhu")
+
 17/06/2024
 
 # Parameters vs Arguments
