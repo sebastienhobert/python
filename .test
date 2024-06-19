@@ -1,3 +1,13 @@
+19/06/2024
+
+# *args (arbitrary arguments)
+# If you don't know how many arguments will be passed into your function
+# Add * before the parameter name in the function
+# This way the function will receive a tuple of arguments and can access the item accordingly
+def func (*pokemon):
+    print("The most powerful Pokemon is " + pokemon[0])
+func("Metagross", "Pikachu", "Celebi", "Giratina", "Mew")
+
 18/06/2024
 
 # An argument is the value that is sent to the function when it is called
