@@ -1,3 +1,9 @@
+21/06/2024
+
+def func(*character):
+    print("This is one of the main characters from Hierarchy (kdrama) ==> ", character[4])
+func("He-ra", "Woo-jin", "Jae-i", "Ri-an", "Kang Ha")
+
 20/06/2024
 
 def func(*pokemon):
