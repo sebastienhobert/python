@@ -1,3 +1,12 @@
+22/06/2024
+
+# Keyword Arguments
+# You can also send arguments with the key = value syntax
+# This way the order of the arguments does not matter
+def pokemon(pok1, pok2, pok3):
+    print("The most popular starter from gen1 is " + pok3)
+pokemon(pok1 = "bulbasaur", pok2 = "squirtle", pok3 = "charmander")
+
 21/06/2024
 
 def func(*character):
