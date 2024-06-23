@@ -1,3 +1,13 @@
+23/06/2024
+
+# Arbitrary keyword arguments **kwargs
+# If you don't know how many keyword arguments will be passed into your function, add ** before the parameter name in the function definition
+# This way the function will receive a dictionary of arguments, and can access the items accordingly
+# Ex: if the number of keyword arguments is unknown, add a ** before the parameter number
+def genshin_impact(**character):
+    print(character["name2"] + " is a five-star character.")
+genshin_impact(name1 = "Qiqi", name2 = "Keqing")
+
 22/06/2024
 
 # Keyword Arguments
