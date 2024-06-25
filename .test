@@ -1,3 +1,12 @@
+25/06/2024
+
+# To let a function return a value, use the return statement
+def func(x):
+    return 5 * x
+print(func(1))
+print(func(5))
+print(func(10))
+
 24/06/2024
 
 # Passing a list as an argument
