@@ -62,6 +62,36 @@ print(next(my_iterable))
 print(next(my_iterable))
 print(next(my_iterable))
 
+# TEST
+# __iter__() and __next__() == create an object/class as iterator
+# All classes have a function __init__() which allows to do initializing when the method is created
+# The __iter__() method acts similar, you can do operations (initialising etc.) but must always return the iterator object itself
+# The __next__() method also allows you to do operations, and must return the next item in the sequence
+# (1) Create an iterator that returns numbers starting with 1, and each sequence will increase by one (returning 1,2,3,4) etc.
+# Expected result:
+# 1
+# 2
+# 3
+# 4
+class MyNumbers:
+    def __iter__(self):
+        self.a = 1  # Initializes an instance attribute 'a'
+        return self  # Returns the iterator object itself
+
+    def __next__(self):
+        x = self.a  # Accesses the instance attribute 'a'
+        self.a += 1  # Increments the instance attribute 'a'
+        return x  # Returns the current value of 'a' before incrementing
+
+myclass = MyNumbers() # Create an instance of MyNumbers
+iterator = iter(myclass) # Get an iterator from the instance
+
+print(next(iterator)) # Output: 1
+print(next(iterator)) # Output: 2
+print(next(iterator)) # Output: 3
+print(next(iterator)) # Output: 4
+
+
 26/06/2024
 
 # In this example, tri_recursion() is a function that we have defined to call itself ("recurse")
