@@ -1,3 +1,26 @@
+27/06/2024
+
+# TEST
+# insert()
+# insert ananas in 3rd position the list
+thislist = ["ananas", "apple", "cherry"]
+thislist.insert(2, "banana")
+print(thislist)
+
+# TEST
+# range()
+# Print the following list ==> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+list = [x for x in range(10)]
+print(list)
+
+# TEST
+# range()
+# Print the following list ==> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] but accept only numbers lower than 5
+list = [x for x in range(10) if x < 5]
+print(list)
+
+
+
 26/06/2024
 
 # In this example, tri_recursion() is a function that we have defined to call itself ("recurse")
