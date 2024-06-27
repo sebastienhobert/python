@@ -8,3 +8,5 @@ From a function's perspective:
 ---------------------------------------------------------------------------------------------------------------------------------
 
 The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+---------------------------------------------------------------------------------------------------------------------------------
