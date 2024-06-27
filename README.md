@@ -6,3 +6,5 @@ From a function's perspective:
 - An argument is the value that is sent to the function when it is called.
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
