@@ -53,6 +53,15 @@ while i < 10:
         print(i, end=" ")
         i += 1
 
+# TEST
+# iter() == iterable
+# Return an iterator from a tuple and print each value
+fruits = ("apple", "banana", "cherry")
+my_iterable = iter(fruits)
+print(next(my_iterable))
+print(next(my_iterable))
+print(next(my_iterable))
+
 26/06/2024
 
 # In this example, tri_recursion() is a function that we have defined to call itself ("recurse")
