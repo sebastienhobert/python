@@ -19,7 +19,21 @@ print(list)
 list = [x for x in range(10) if x < 5]
 print(list)
 
-
+# TEST
+# for == iteration keyword
+# (1) Start a "for" loop that iterates over the numbers from 0 to 9 (10 exclusive)
+# In each iteration, the variable i takes on the next value in the range
+# (2) Print the current value of i followed by a space, without moving to the next line
+# (3) Check if the current value of i is equal to 6
+# (4) If the condition i == 6 is true, execute "break" statement, which immediately exits the loop
+# (5) Print a newline character, moving the cursor to the next line
+# The print statement is outside the loop, so it is executed after the loop has completed or after the loop has been terminated by the break statement
+# Expected result: 0 1 2 3 4 5 6 
+for i in range(10):
+    print(i, end=" ")
+    if i == 6:
+        break
+print()
 
 26/06/2024
 
