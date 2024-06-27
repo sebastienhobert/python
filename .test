@@ -35,6 +35,24 @@ for i in range(10):
         break
 print()
 
+# TEST
+# while == iteration keyword
+# (1) Initialize a variable i with value 0
+# (2) Start a "while" loop that continues executing as long as i < 10 is true
+# (3) If i == 6 is true, increment i by 1
+# (4) Set "continue" statement so the control go back to the beginning of the loop without executing the remaining code
+# (5) If i == 6 is false, create an "else" block within which we print the current value of i separated by space
+# (6) Increment the value by 1
+# Expected result: 0 1 2 3 4 5 7 8 9
+i = 0
+while i < 10:
+    if i == 6:
+        i += 1
+        continue
+    else:
+        print(i, end=" ")
+        i += 1
+
 26/06/2024
 
 # In this example, tri_recursion() is a function that we have defined to call itself ("recurse")
