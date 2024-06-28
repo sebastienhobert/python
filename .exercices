@@ -2,6 +2,7 @@
 # Based on list fruits, create a new list containing only the fruits with the letter "a" in the name.
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
+
 # SOLUTION 1 
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = []
