@@ -1,0 +1,13 @@
+# Loop through the list items by referring to their index number
+# Use the range() and len() functions to create a suitable iterable
+
+thislist = ["apple", "orange", "strawberry", "tomato"]
+for i in range(len(thislist)):
+   print(thislist[i])
+
+
+# Typo from me that gives an interesting result!
+
+thislist = ["apple", "banana", "raspberry"]
+for i in range(len(thislist)):
+    print(thislist)
