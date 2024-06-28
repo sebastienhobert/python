@@ -41,6 +41,32 @@ p1.myfunc()
 p1.myfunc2()
 
 
+# INHERITANCE
+class Person:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printname(self):
+        print(f"My firstname is {self.firstname} and my last name is {self.lastname}.")
+
+x = Person("Sebastien", "HOBERT")
+# x.printname()
+
+class Friend(Person):
+    def __init__(self, fname, lname, yearLivedInChina):
+        super().__init__(fname, lname)
+        self.YearLivedInChina = yearLivedInChina
+
+    def welcome(self):
+        print(f"I'm {self.firstname} {self.lastname} and I lived in China in {self.YearLivedInChina}.")
+
+x = Friend("Aimie", "APARISI", 2023)
+# x.printname()
+
+x.welcome()
+
+
 27/06/2024
 
 # TEST
