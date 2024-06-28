@@ -1,3 +1,0 @@
-thislist = ["apple", "banana", "cherry"]
-thislist[1] = "durian"
-print(thislist)
