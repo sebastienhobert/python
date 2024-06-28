@@ -1,35 +1,23 @@
-(1)
-# Based on list fruits, create a new list containing only the fruits with the letter "a" in the name.
-# OUTPUT
-# ["apple", "banana", "mango"]
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-# SOLUTION 1 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
-for x in fruits:
-    if "a" in x:
-        newlist.append(x)
-print(newlist)
-
-# SOLUTION 2 == list comprehension
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = [x for x in fruits if "a" in x]
-print(newlist)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(2)
-# Write a function that takes a single parameter x and returns the result of multiplying x by 5. Then, call this function with the argument 3 and print the result.
+(4) Print Function HACKERRANK
+# Generate a sequence of numbers from 1 to n concatenated together as a string.
+# Include user input.
 # INPUT = 3
-# OUTPUT = 15
+# OUTPUT = 123
 
 
 # SOLUTION
-def my_function(x):
-  return 5 * x
+def number_sequence(n):
+    return " ".join(str(i) for i in range(1, n + 1))
 
-print(my_function(3))
+# Getting user input
+n = int(input("Enter a number: "))
+
+# Printing the output
+print(number_sequence(n))
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,21 +39,35 @@ print("Square:", square)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(4) Print Function HACKERRANK
-# Generate a sequence of numbers from 1 to n concatenated together as a string.
-# Include user input.
+(2)
+# Write a function that takes a single parameter x and returns the result of multiplying x by 5. Then, call this function with the argument 3 and print the result.
 # INPUT = 3
-# OUTPUT = 123
+# OUTPUT = 15
 
 
 # SOLUTION
-def number_sequence(n):
-    return ''.join(str(i) for i in range(1, n + 1))
+def my_function(x):
+  return 5 * x
 
-# Getting user input
-n = int(input("Enter a number: "))
-
-# Printing the output
-print(number_sequence(n))
+print(my_function(3))
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+(1)
+# Based on list fruits, create a new list containing only the fruits with the letter "a" in the name.
+# OUTPUT
+# ["apple", "banana", "mango"]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+# SOLUTION 1 
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+
+# SOLUTION 2 == list comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
