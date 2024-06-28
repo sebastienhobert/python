@@ -22,6 +22,25 @@ list2 = [1, 2, 3]
 list1.extend(list2)
 print(list1)
 
+# EXPERIMENTAL
+# Replacing 'self' with different names to understand its mechanism..
+class Person:
+  def __init__(mysillyobject, name, age):
+    mysillyobject.name = name
+    mysillyobject.age = age
+
+  def myfunc(abc):
+      print("Hello my name is " + abc.name)
+
+  def myfunc2(abc2):
+    print(f"I'm {abc2.age} years old.")
+
+p1 = Person("Sebastien", 27)
+
+p1.myfunc()
+p1.myfunc2()
+
+
 27/06/2024
 
 # TEST
