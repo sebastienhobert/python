@@ -1,6 +1,8 @@
 (1)
 # Based on list fruits, create a new list containing only the fruits with the letter "a" in the name.
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# OUTPUT
+# ["apple", "banana", "mango"]
 
 
 # SOLUTION 1 
@@ -20,6 +22,8 @@ print(newlist)
 
 (2)
 # Write a function that takes a single parameter x and returns the result of multiplying x by 5. Then, call this function with the argument 3 and print the result.
+# INPUT = 3
+# OUTPUT = 15
 
 
 # SOLUTION
@@ -32,6 +36,8 @@ print(my_function(3))
 
 (3)
 # Define a Python function that calculates the square of a given number and then prints the result using a function call.
+# INPUT = 3
+# OUTPUT = 9
 
 
 # SOLUTION
