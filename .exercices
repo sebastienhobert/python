@@ -17,3 +17,31 @@ newlist = [x for x in fruits if "a" in x]
 print(newlist)
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+(2)
+# Write a function that takes a single parameter x and returns the result of multiplying x by 5. Then, call this function with the argument 3 and print the result.
+
+
+# SOLUTION
+def my_function(x):
+  return 5 * x
+
+print(my_function(3))
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+(3)
+# Define a Python function that calculates the square of a given number and then prints the result using a function call.
+
+
+# SOLUTION
+# function definition
+def find_square(num):
+    result = num * num
+    return result
+
+# function call
+square = find_square(3)
+print("Square:", square)
+
+---------------------------------------------------------------------------------------------------------------------------------
