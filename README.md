@@ -33,7 +33,7 @@ When you call p1.myfunc(), the **myfunc** method is called. In this context:
 abc refers to p1
 abc.name is "John"
 
-"""
+
 class Person:
   def __init__(mysillyobject, name, age):
     mysillyobject.name = name
@@ -45,6 +45,6 @@ class Person:
 p1 = Person("John", 36)
 
 p1.myfunc()
-"""
+
 
 ---------------------------------------------------------------------------------------------------------------------------------
