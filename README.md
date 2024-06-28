@@ -17,3 +17,34 @@ self allows each instance of a class to maintain its own state. Each instance ha
 By using self, Python provides a way for methods to operate on specific instances of a class, allowing for the creation and manipulation of objects with their own unique data.
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+OOP
+
+When you create an instance of the Person class with p1 = Person("John", 36)
+
+__init__ method is called. In this context:
+
+mysillyobject refers to p1
+mysillyobject.name is set to "John"
+mysillyobject.age is set to 36
+
+When you call p1.myfunc(), the **myfunc** method is called. In this context:
+
+abc refers to p1
+abc.name is "John"
+
+"""
+class Person:
+  def __init__(mysillyobject, name, age):
+    mysillyobject.name = name
+    mysillyobject.age = age
+
+  def myfunc(abc):
+    print("Hello my name is " + abc.name)
+
+p1 = Person("John", 36)
+
+p1.myfunc()
+"""
+
+---------------------------------------------------------------------------------------------------------------------------------
