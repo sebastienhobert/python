@@ -1,7 +1,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 
 (7) Add items from one set to another set.
-# Add items from 'tropical_fruits' set into the 'fruits'set.
+# Add items from 'tropical_fruits' set into the 'fruits' set.
 # OUTPUT
 # {'apple', 'papaya', 'rambutan', 'banana', 'cherry', 'mango'}
 fruits = {"apple", "banana", "cherry"}
