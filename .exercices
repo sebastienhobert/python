@@ -1,11 +1,25 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 
+(9) Check if a word is present in a list?
+# Check if the word 'channel' is present in the following list.
+# OUTPUT POSSIBLE = False
+# OUTPUT POSSIBLE = True
+list = ['bricks', 'neutrals', 'criticism', 'enjoyment', 'witches', 'embarrassment', 'creations', 'education', 'ceiling', 'ruin', 'retailer', 'midst', 'hand', 'transaction', 'reminders', 'harmony', 'suppression', 'side', 'cruise', 'gardens', 'snowflake', 'lightning', 'rage', 'punishment', 'strategy', 'spectator', 'muscles', 'wheel', 'discovery', 'leakage']
+
+
+# SOLUTION:
+list = ['bricks', 'neutrals', 'criticism', 'enjoyment', 'witches', 'embarrassment', 'creations', 'education', 'ceiling', 'ruin', 'retailer', 'midst', 'hand', 'transaction', 'reminders', 'harmony', 'suppression', 'side', 'cruise', 'gardens', 'snowflake', 'lightning', 'rage', 'punishment', 'strategy', 'spectator', 'muscles', 'wheel', 'discovery', 'leakage']
+print("channel" in list)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 (8) Print results with incremental value
 # Print each element from the list with the word 'fruit' and a following incremental number.
 # OUTPUT
 # fruit1
 # fruit2
 # fruit3
+list = ["apple", "banana", "cherry"]
 
 
 # SOLUTION
@@ -24,7 +38,6 @@ for x in list:
 fruits = {"apple", "banana", "cherry"}
 tropical_fruits = {"mango", "papaya", "rambutan"}
 
----------------------------------------------------------------------------------------------------------------------------------
 
 SOLUTION
 fruits = {"apple", "banana", "cherry"}
@@ -32,8 +45,10 @@ tropical_fruits = {"mango", "papaya", "rambutan"}
 fruits.update(tropical_fruits)
 print(fruits)
 
+---------------------------------------------------------------------------------------------------------------------------------
+
 (6) Sequence of numbers from 0 to n. Square of each number. HACKERRANK
-# The list of non-negative integers that are less than n = 3 is [0, 1, 2].
+# Ex: The list of non-negative integers that are less than n = 3 is [0, 1, 2].
 # Print the square of each number on a separate line.
 # INPUT = 5
 # OUTPUT
