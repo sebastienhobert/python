@@ -1,4 +1,20 @@
+(5)
+# Create a loop that iterates over the indices of the list (which is 0 to 3 in this case).
+# For each index 'i', print the element at that index in the list.
+# OUTPUT 
+# apple
+# orange
+# strawberry
+# tomato
+thislist = ["apple", "orange", "strawberry", "tomato"]
 
+
+# SOLUTION
+# Loop through the list items by referring to their index number
+# Use the range() and len() functions to create a suitable iterable
+thislist = ["apple", "orange", "strawberry", "tomato"]
+for i in range (len(thislist)):
+    print(thislist[i])
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
