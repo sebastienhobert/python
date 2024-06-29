@@ -61,11 +61,17 @@ fruits = {"apple", "banana", "cherry"}
 tropical_fruits = {"mango", "papaya", "rambutan"}
 
 
-# SOLUTION
+# SOLUTION 1
 fruits = {"apple", "banana", "cherry"}
 tropical_fruits = {"mango", "papaya", "rambutan"}
 fruits.update(tropical_fruits)
 print(fruits)
+
+# SOLUTION 2
+fruits = {"apple", "banana", "cherry"}
+tropical_fruits = {"mango", "papaya", "rambutan"}
+all_fruits = fruits.union(tropical_fruits)
+print(all_fruits)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
