@@ -1,3 +1,20 @@
+---------------------------------------------------------------------------------------------------------------------------------
+
+(7) Add items from one set to another set.
+# Add items from 'tropical_fruits' set into the 'fruits'set.
+# OUTPUT
+# {'apple', 'papaya', 'rambutan', 'banana', 'cherry', 'mango'}
+fruits = {"apple", "banana", "cherry"}
+tropical_fruits = {"mango", "papaya", "rambutan"}
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+SOLUTION
+fruits = {"apple", "banana", "cherry"}
+tropical_fruits = {"mango", "papaya", "rambutan"}
+fruits.update(tropical_fruits)
+print(fruits)
+
 (6) Sequence of numbers from 0 to n. Square of each number. HACKERRANK
 # The list of non-negative integers that are less than n = 3 is [0, 1, 2].
 # Print the square of each number on a separate line.
