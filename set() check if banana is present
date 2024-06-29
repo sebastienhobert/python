@@ -1,6 +1,0 @@
-thisset = {"apple", "banana", "cherry"}
-for banana in thisset:
-    print(banana)
-
-thisset = {"apple", "banana", "cherry"}
-print("banana" in thisset)
