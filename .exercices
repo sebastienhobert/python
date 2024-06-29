@@ -1,5 +1,22 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 
+(8) Print results with incremental value
+# Print each element from the list with the word 'fruit' and a following incremental number.
+# OUTPUT
+# fruit1
+# fruit2
+# fruit3
+
+
+# SOLUTION
+list = ["apple", "banana", "cherry"]
+counter = 0
+for x in list:
+    print(f"fruit{counter}")
+    counter += 1
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 (7) Add items from one set to another set.
 # Add items from 'tropical_fruits' set into the 'fruits' set.
 # OUTPUT
