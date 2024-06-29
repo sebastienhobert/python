@@ -1,7 +1,0 @@
-#Sets cannot have two items with the same value.
-thisset = {"apple", "banana", "cherry", "apple"}
-print(thisset)
-
-#True and 1 is considered the same value and are treated as duplicates.
-thisset = {"apple", "banana", "cherry", True, 1, 2}
-print(thisset)
