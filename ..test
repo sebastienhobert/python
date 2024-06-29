@@ -1,7 +1,24 @@
+29/06/2024
+
+# Understanding optional parameters for Class
+class Dog:
+    def __init__(self, dogbreed = "German Shepherd", dogeyecolor = "brown"):
+    # two optional parameters:
+    # dogbreed with default value "German Shepherd"
+    # dogeyecolor with default value "brown"
+    
+        self.breed = dogbreed # self.breed = instance variable | dogbreed = value
+        self.eyecolor = dogeyecolor
+
+tomita = Dog("Chihuahua", "brown")
+rex = Dog() # use the default values ("German Shepherd", "brown") for the parameters since no arguments are provided
+
+print(tomita.breed, tomita.eyecolor)
+print(rex.breed, rex.eyecolor)
+
 28/06/2024
 
-# TEST
-# Three ways to join two lists
+# Three ways to join list 
 # (1) + operator
 # (2) append() 
 # (3) extend() 
@@ -22,7 +39,8 @@ list2 = [1, 2, 3]
 list1.extend(list2)
 print(list1)
 
-# EXPERIMENTAL
+----------------------------------------------------------------------------------------------------------------------------
+
 # Replacing 'self' with different names to understand its mechanism..
 class Person:
   def __init__(mysillyobject, name, age):
@@ -40,6 +58,7 @@ p1 = Person("Sebastien", 27)
 p1.myfunc()
 p1.myfunc2()
 
+----------------------------------------------------------------------------------------------------------------------------
 
 # INHERITANCE
 class Person:
@@ -69,26 +88,26 @@ x.welcome()
 
 27/06/2024
 
-# TEST
 # insert()
 # insert ananas in 3rd position the list
 thislist = ["ananas", "apple", "cherry"]
 thislist.insert(2, "banana")
 print(thislist)
 
-# TEST
+----------------------------------------------------------------------------------------------------------------------------
+
 # range()
 # Print the following list ==> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 list = [x for x in range(10)]
 print(list)
 
-# TEST
 # range()
 # Print the following list ==> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] but accept only numbers lower than 5
 list = [x for x in range(10) if x < 5]
 print(list)
 
-# TEST
+----------------------------------------------------------------------------------------------------------------------------
+
 # for == iteration keyword
 # (1) Start a "for" loop that iterates over the numbers from 0 to 9 (10 exclusive)
 # In each iteration, the variable i takes on the next value in the range
@@ -104,7 +123,8 @@ for i in range(10):
         break
 print()
 
-# TEST
+----------------------------------------------------------------------------------------------------------------------------
+
 # while == iteration keyword
 # (1) Initialize a variable i with value 0
 # (2) Start a "while" loop that continues executing as long as i < 10 is true
@@ -122,7 +142,8 @@ while i < 10:
         print(i, end=" ")
         i += 1
 
-# TEST
+----------------------------------------------------------------------------------------------------------------------------
+
 # iter() == iterable
 # Return an iterator from a tuple and print each value
 fruits = ("apple", "banana", "cherry")
@@ -131,7 +152,8 @@ print(next(my_iterable))
 print(next(my_iterable))
 print(next(my_iterable))
 
-# TEST
+----------------------------------------------------------------------------------------------------------------------------
+
 # __iter__() and __next__() == create an object/class as iterator
 # All classes have a function __init__() which allows to do initializing when the method is created
 # The __iter__() method acts similar, you can do operations (initialising etc.) but must always return the iterator object itself
@@ -160,7 +182,6 @@ print(next(iterator)) # Output: 2
 print(next(iterator)) # Output: 3
 print(next(iterator)) # Output: 4
 
-
 26/06/2024
 
 # In this example, tri_recursion() is a function that we have defined to call itself ("recurse")
@@ -175,7 +196,9 @@ def tri_recursion(k):
     return result
 print("Results:")
 tri_recursion(5)
+
 ----------------------------------------------------------------------------------------------------------------------------
+
 # CREATE A PARENT CLASS
 # Create a class named Person with firstname and lastname properties, and a printname method
 # Use the Person class to create an object, then execute the printname method
@@ -189,8 +212,6 @@ class Person:
 
 x = Person("Sebastien", "HOBERT")
 x.printname()
-----------------------------------------------------------------------------------------------------------------------------
-
 
 25/06/2024
 
