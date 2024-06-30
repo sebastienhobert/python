@@ -1,5 +1,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 
+# Joining two sets
 # Keep only the duplicates.
 # OUTPUT = {'apple'}
 x = {"apple", "banana", "cherry"}
@@ -42,7 +43,7 @@ Sets cannot have two items with the same value.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# Check if a word is present in a list?
+# Checking if a word is present in a list?
 # Check if the word 'channel' is present in the following list.
 # OUTPUT POSSIBLE = False
 # OUTPUT POSSIBLE = True
@@ -55,7 +56,7 @@ print("channel" in list)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# Print results with incremental value
+# Printing results with incremental value
 # Print each element from the list with the word 'fruit' and a following incremental number.
 # OUTPUT
 # fruit1
@@ -73,7 +74,7 @@ for x in list:
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# Add items from one set to another set
+# Adding items from one set to another set
 # Add items from 'tropical_fruits' set into the 'fruits' set.
 # OUTPUT
 # {'apple', 'papaya', 'rambutan', 'banana', 'cherry', 'mango'}
@@ -116,8 +117,8 @@ print(square(n))
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-# Create a loop that iterates over the indices of the list (which is 0 to 3 in this case).
-# For each index 'i', print the element at that index in the list.
+# Creating a loop that iterates over the indices of the list 
+# For each index 'i', print the element at that index in the list (which is 0 to 3 in this case).
 # OUTPUT 
 # apple
 # orange
