@@ -2,7 +2,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(?) Why is '1' is not appearing in the result?
+# Why is '1' is not appearing in the result?
 thisset = {"apple", "banana", "cherry", True, 1, 2}
 print(thisset)
 
@@ -12,7 +12,7 @@ True and 1 is considered the same value and are treated as duplicates.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(?) What is the result of the following code? why?
+# What is the result of the following code? why?
 thisset = {"apple", "banana", "cherry", "apple"}
 print(thisset)
 
@@ -22,7 +22,7 @@ Sets cannot have two items with the same value.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(9) Check if a word is present in a list?
+# Check if a word is present in a list?
 # Check if the word 'channel' is present in the following list.
 # OUTPUT POSSIBLE = False
 # OUTPUT POSSIBLE = True
@@ -35,7 +35,7 @@ print("channel" in list)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(8) Print results with incremental value
+# Print results with incremental value
 # Print each element from the list with the word 'fruit' and a following incremental number.
 # OUTPUT
 # fruit1
@@ -53,7 +53,7 @@ for x in list:
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(7) Add items from one set to another set.
+# Add items from one set to another set
 # Add items from 'tropical_fruits' set into the 'fruits' set.
 # OUTPUT
 # {'apple', 'papaya', 'rambutan', 'banana', 'cherry', 'mango'}
@@ -75,7 +75,7 @@ print(all_fruits)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(6) Sequence of numbers from 0 to n. Square of each number. HACKERRANK
+# HACKERRANK | Sequence of numbers from 0 to n | Square of each number 
 # Ex: The list of non-negative integers that are less than n = 3 is [0, 1, 2].
 # Print the square of each number on a separate line.
 # INPUT = 5
@@ -96,7 +96,6 @@ print(square(n))
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(5)
 # Create a loop that iterates over the indices of the list (which is 0 to 3 in this case).
 # For each index 'i', print the element at that index in the list.
 # OUTPUT 
@@ -116,7 +115,7 @@ for i in range (len(thislist)):
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(4) Sequence of numbers from 1 to n. HACKERRANK
+# HACKERRANK | Sequence of numbers from 1 to n
 # Generate a sequence of numbers from 1 to n concatenated together as a string.
 # Include user input.
 # INPUT = 3
@@ -135,7 +134,6 @@ print(number_sequence(n))
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(3)
 # Define a Python function that calculates the square of a given number and then prints the result using a function call.
 # INPUT = 3
 # OUTPUT = 9
@@ -153,7 +151,6 @@ print("Square:", square)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(2)
 # Write a function that takes a single parameter x and returns the result of multiplying x by 5. Then, call this function with the argument 3 and print the result.
 # INPUT = 3
 # OUTPUT = 15
@@ -167,7 +164,6 @@ print(my_function(3))
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-(1)
 # Based on list fruits, create a new list containing only the fruits with the letter "a" in the name.
 # OUTPUT
 # ["apple", "banana", "mango"]
