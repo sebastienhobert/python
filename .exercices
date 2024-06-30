@@ -1,4 +1,24 @@
+---------------------------------------------------------------------------------------------------------------------------------
 
+# Keep only the duplicates.
+# OUTPUT = {'apple'}
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+
+# SOLUTION 1
+# The intersection_update() method will keep only the items that are present in both sets
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.intersection_update(y)
+print(x)
+
+# SOLUTION 2
+# The intersection() method will return a new set
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.intersection(y)
+print(z)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
