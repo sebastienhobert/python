@@ -1,4 +1,14 @@
+# Sort the list based on how close the number is to 50.
+list = [100, 50, 65, 82, 23]
 
+
+# SOLUTION
+def func(n):
+    return abs(n - 50)
+
+list = [100, 54, 65, 82, 23]
+list.sort(key = func)
+print(list)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
