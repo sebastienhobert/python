@@ -1,3 +1,13 @@
+30/06/2024
+
+# Understanding what is an 'argument'
+def greet(name):
+    print("Hello", name)
+
+greet("Sebastien") 
+
+# We passed "Sebastien" as an argument
+
 29/06/2024
 
 # Understanding optional parameters for Class
@@ -6,7 +16,7 @@ class Dog:
     # two optional parameters:
     # dogbreed with default value "German Shepherd"
     # dogeyecolor with default value "brown"
-    
+
         self.breed = dogbreed # self.breed = instance variable | dogbreed = value
         self.eyecolor = dogeyecolor
 
