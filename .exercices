@@ -1,10 +1,26 @@
+---------------------------------------------------------------------------------------------------------------------------------
 
+# HACKERRANK 
+# Convert uppercase letters to lowercase and vice versa.
+# Ask the user for input.
+INPUT: Blue Sky
+OUTPUT: bLUE sKY
+
+
+# SOLUTION
+def swap_case(s):
+    return s.swapcase() # Call the swapcase() method on string 's'
+
+s = input("Enter your string: ")
+result = swap_case(s)
+print(result)
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # Split the text.
 # OUTPUT = ['welcome', 'to', 'the', 'jungle']
 txt = "welcome to the jungle"
+
 
 # SOLUTION
 txt = "welcome to the jungle"
