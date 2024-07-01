@@ -1,4 +1,51 @@
 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Perform an alphabetical sort of the list.
+list = ["banana", "orange", "kiwi", "cherry"]
+
+
+# SOLUTION
+list = ["banana", "orange", "kiwi", "cherry"]
+list.sort()
+print(list)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Perform a case-insensitive sort of the list.
+list = ["banana", "Orange", "Kiwi", "cherry"]
+
+
+# SOLUTION
+list = ["banana", "orange", "kiwi", "cherry"]
+list.sort(key = str.lower)
+print(list)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Perform a reverse sort of the list.
+list = ["banana", "orange", "kiwi", "cherry"]
+
+
+# SOLUTION
+list = ["banana", "orange", "kiwi", "cherry"]
+list.sort(reverse = True)
+print(list)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Sort the list based on how close the number is to 50.
+list = [100, 52, 65, 82, 23]
+
+
+# SOLUTION
+list = [100, 52, 65, 82, 23]
+def func(n):
+    return abs(n - 50)
+list.sort(key = func)
+print(list)
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # Sort the list based on how close the number is to 50.
