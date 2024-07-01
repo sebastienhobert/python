@@ -2,6 +2,17 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+# Split the text.
+# OUTPUT = ['welcome', 'to', 'the', 'jungle']
+txt = "welcome to the jungle"
+
+# SOLUTION
+txt = "welcome to the jungle"
+x = txt.split()
+print(x)
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 # Perform an alphabetical sort of the list.
 list = ["banana", "orange", "kiwi", "cherry"]
 
