@@ -1,3 +1,14 @@
+01/07/2024
+
+# Making a terminal progress bar using 'tqdm'
+from tqdm import tqdm
+from time import sleep
+
+for i in tqdm(range(0, 100), ncols = 100, desc = "Hacking in progression"):
+    sleep(.5)
+
+print("Hacking successful.")
+
 30/06/2024
 
 # Understanding what is an 'argument'
