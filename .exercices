@@ -1,3 +1,18 @@
+# Print all vocabulary that contains four words.
+# OUTPUT = These have 4 words: ['双重标准', '和平过渡']
+vocabulary_list: list[str] = ['双重标准', '正式', '和平过渡', '羽绒服', '娇气', '征收', '宰', '葬']
+
+
+# SOLUTION
+vocabulary_list: list[str] = ['双重标准', '正式', '和平过渡', '羽绒服', '娇气', '征收', '宰', '葬']
+
+four_words: list[str] = []
+for word in vocabulary_list:
+    if len(word) > 3:
+        four_words.append(word)
+
+print(f"These have 4 words: {four_words}")
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # HACKERRANK 
