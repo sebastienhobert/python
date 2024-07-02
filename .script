@@ -1,3 +1,14 @@
+02/07/2024
+
+# Understanding string format()
+# Use of index numbers {} to be sure the values are in correct placeholders
+# Use of '{:.2f}' to display numbers with two decimals
+quantity = 3
+itemno = 567
+price = 51
+myorder = "I want {0} pieces of item number {1} for {2:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
+
 01/07/2024
 
 # Making a terminal progress bar using 'tqdm'
