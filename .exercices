@@ -1,3 +1,22 @@
+---------------------------------------------------------------------------------------------------------------------------------
+
+# string format()
+# OUTPUT = I want 3 pieces of item number 567 for 51.00 dollars.
+quantity = 3
+itemno = 567
+price = 51
+
+
+SOLUTION
+# Use of '{:.2f}' to display numbers with two decimals
+quantity = 3
+itemno = 567
+price = 51
+myorder = "I want {0} pieces of item number {1} for {2:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 # Print all vocabulary that contains four words.
 # OUTPUT = These have 4 words: ['双重标准', '和平过渡']
 vocabulary_list: list[str] = ['双重标准', '正式', '和平过渡', '羽绒服', '娇气', '征收', '宰', '葬']
