@@ -1,3 +1,16 @@
+03/07/2024
+
+# Exception handling
+x = int(input("Enter a number: "))
+if x < 0:
+    raise Exception("Sorry, no numbers below zero.")
+
+----------------------------------------------------------------------------------------------------------------------------
+
+x = "hello"
+if not type(x) is int:
+    raise TypeError("Only Integer are allowed.")
+
 02/07/2024
 
 # Understanding string format()
