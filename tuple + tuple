@@ -1,4 +1,0 @@
-thistuple = ("apple", "banana", "cherry", "strawberry")
-y = ("orange",)
-thistuple += y
-print(thistuple)
