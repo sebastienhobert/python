@@ -1,3 +1,11 @@
+04/07/2024
+
+# Concatenate two tuples
+tuple1 = ("apple", "banana", "cherry", "strawberry")
+tuple2 = ("orange", "ananas",)
+tuple1 += tuple2
+print(tuple1)
+
 03/07/2024
 
 # Exception handling
