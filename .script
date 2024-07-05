@@ -1,3 +1,16 @@
+05/07/2024
+
+# Tuples are immutable.
+# Is there a workaround to alter its value?
+
+# You can do this by converting the tuple to the list.
+# Then convert the list back to a tuple.
+capital_tuple = ("Pyongyang", "Paris", "Beijing,", "Tokyo")
+capital_list = list(capital_tuple)
+capital_list[1] = "Seoul"
+capital_tuple = tuple(capital_list)
+print(capital_tuple)
+
 04/07/2024
 
 # Concatenate two tuples
