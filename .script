@@ -1,5 +1,14 @@
 06/07/2024
 
+# Tuple with one item
+thistuple = ("apple",)
+print(type(thistuple))
+
+thistuple = ("apple")
+print(type(thistuple))
+
+----------------------------------------------------------------------------------------------------------------------------
+
 # Tuples are immutable.
 # How to remove an item from it?
 
