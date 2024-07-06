@@ -1,4 +1,20 @@
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Print elements of the tuple using a 'while' Loop
+# OUTPUT 
+# apple
+# banana
+# cherry
+thistuple = ("apple", "banana", "cherry")
+
+
+# SOLUTION
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+    print(thistuple[i])
+    i += 1
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
