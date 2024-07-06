@@ -11,6 +11,26 @@ List.remove("Paris")
 Tuple = tuple(List)
 print(Tuple)
 
+----------------------------------------------------------------------------------------------------------------------------
+
+# Unpacking in tuple
+# When we create a tuple, we normally assign values to it. This is called "packing" a tuple.
+# In Python, we are also allowed to extract values back into variables. It's called "unpacking".
+chineseZodiac = ("rat", "dragon", "tiger", "rabbit")
+(smart, majestic, fierce, agile) = chineseZodiac
+print(smart)
+print(majestic)
+print(fierce)
+print(agile)
+
+# If the number of variables is less than the number of values, you can add * to the variable name and the values will be assigned to the variable as a list.
+fruits = ("apple", "banana", "strawberry", "raspberry", "cherry")
+(green, yellow, *red) = fruits
+print(green)
+print(yellow)
+print(red)
+
+
 05/07/2024
 
 # Tuples are immutable.
