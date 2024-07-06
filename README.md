@@ -48,3 +48,13 @@ p1.myfunc()
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+for loop
+- More concise and easier to read
+- Abstract away the manual management of the loop index
+
+while loop
+- Provides more control and flexibility
+- Useful for scenarios where the loop conditions are more complex or not based solely on a fixed range
+
+---------------------------------------------------------------------------------------------------------------------------------
