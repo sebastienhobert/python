@@ -1,5 +1,0 @@
-thistuple = ("apple", "banana", "cherry", "strawberry")
-y = list(thistuple)
-y.remove("strawberry")
-thistuple = tuple(y)
-print(thistuple)
