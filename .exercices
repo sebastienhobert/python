@@ -1,3 +1,28 @@
+---------------------------------------------------------------------------------------------------------------------------------
+
+# HACKERRANK | DIVMOD
+
+# INPUT 
+# 200
+# 5
+
+OUTPUT
+# Enter your first number: 200
+# Enter your second number: 5
+# 40
+# 0
+# (quotient is 40, remainder is 0)
+
+SOLUTION
+a = (int(input("Enter your first number: ")))
+b = (int(input("Enter your second number: ")))
+
+print(a//b)
+print(a%b)
+print(f"(quotient is {a//b}, remainder is {a%b})")
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 # WHILE
 # Print 'i' as long as 'i' is less than 6.
 # OUTPUT
