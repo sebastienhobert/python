@@ -6,12 +6,13 @@
 # 200
 # 5
 
-OUTPUT
+# OUTPUT
 # Enter your first number: 200
 # Enter your second number: 5
 # 40
 # 0
 # (quotient is 40, remainder is 0)
+
 
 SOLUTION
 a = (int(input("Enter your first number: ")))
