@@ -1,6 +1,7 @@
 
----------------------------------------------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------------------------------------------
+# WHILE
 # Print elements of the tuple using a 'while' Loop
 # OUTPUT 
 # apple
@@ -18,6 +19,7 @@ while i < len(thistuple):
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+# FOR
 # Loop through the index numbers.
 # Print the index numbers with their corresponding elements.
 # OUTPUT
@@ -30,7 +32,7 @@ thistuple = ("apple", "banana", "cherry")
 # SOLUTION
 thistuple = ("apple", "banana", "cherry")
 for i in range(len(thistuple)):
-    print(f"{i} {thistuple[i]}")
+    print(i, thistuple[i])
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
