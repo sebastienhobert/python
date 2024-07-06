@@ -1,3 +1,16 @@
+06/07/2024
+
+# Tuples are immutable.
+# How to remove an item from it?
+
+# You can do this by converting the tuple to the list.
+# Then convert the list back to a tuple.
+Tuple = ("Pyongyang", "Paris", "Beijing,", "Tokyo")
+List = list(Tuple)
+List.remove("Paris")
+Tuple = tuple(List)
+print(Tuple)
+
 05/07/2024
 
 # Tuples are immutable.
@@ -5,11 +18,11 @@
 
 # You can do this by converting the tuple to the list.
 # Then convert the list back to a tuple.
-capital_tuple = ("Pyongyang", "Paris", "Beijing,", "Tokyo")
-capital_list = list(capital_tuple)
-capital_list[1] = "Seoul"
-capital_tuple = tuple(capital_list)
-print(capital_tuple)
+Tuple = ("Pyongyang", "Paris", "Beijing,", "Tokyo")
+List = list(Tuple)
+List[1] = "Seoul"
+Tuple = tuple(List)
+print(Tuple)
 
 04/07/2024
 
