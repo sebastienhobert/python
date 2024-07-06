@@ -1,3 +1,21 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Loop through the index numbers.
+# Print the index numbers with their corresponding elements.
+# OUTPUT
+# 0 apple
+# 1 banana
+# 2 cherry
+thistuple = ("apple", "banana", "cherry")
+
+
+# SOLUTION
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+    print(f"{i} {thistuple[i]}")
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # string format()
