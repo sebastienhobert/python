@@ -1,3 +1,16 @@
+07/07/2024
+
+# To write to an existing file, you must add a parameter to the open() function
+# 'a' == append to end of file
+# 'w' == overwrite any existing content
+# Ex: open the file "test.txt" and append content to the file
+f = open("test.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+# Open and read the file after appending
+f = open("test.txt", "r")
+
 06/07/2024
 
 # Tuple with one item
