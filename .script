@@ -1,3 +1,10 @@
+08/07/2024
+
+# Ex: open the file 'test2.txt' and overwrite the content
+f = open("test2.txt", "w")
+f.write("Oopsie! I have delete the content!")
+f.close()
+
 07/07/2024
 
 # To write to an existing file, you must add a parameter to the open() function
