@@ -1,3 +1,9 @@
+09/07/2024
+
+# Ex: open and read the file after the overwriting
+f = open("test2.txt", "r")
+print(f.read())
+
 08/07/2024
 
 # Ex: open the file 'test2.txt' and overwrite the content
