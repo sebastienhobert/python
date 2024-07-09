@@ -1,9 +1,3 @@
-#Open and read the file after the overwriting
-f = open("test2.txt", "r")
-print(f.read())
-
-#NOTE - the "w" method will overwrite the entire file
-
 """
 CREATE A NEW FILE 
 To create a new file in Python, use the open() method, with one of the following parameters
