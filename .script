@@ -1,3 +1,9 @@
+10/07/2024
+
+# Create a new file using the open() method
+# 'x' == create a file, returns an error if the file exists
+f = open("test2.txt", "x")
+
 09/07/2024
 
 # Ex: open and read the file after the overwriting
@@ -16,6 +22,7 @@ f.close()
 # To write to an existing file, you must add a parameter to the open() function
 # 'a' == append to end of file
 # 'w' == overwrite any existing content
+# 'x' == create a new file, returns an error if file already exists
 # Ex: open the file "test.txt" and append content to the file
 f = open("test.txt", "a")
 f.write("Now the file has more content!")
