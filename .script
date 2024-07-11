@@ -2,11 +2,17 @@
 
 # Stack = linear data structure
 # append() function to push
+
 stack = []
 stack.append('a')
 stack.append('b')
 stack.append('c')
+
 print("Initial stack: ", stack)
+
+print("\nElements popped from the stack: ", stack.pop())
+
+print("\nStack after elements are popped: ", stack)
 
 10/07/2024
 
