@@ -1,3 +1,19 @@
+13/07/2024
+
+# Recursive function
+# Below is a recursive function to find the factorial of an integer
+# factorial() is a recursive function as it calls itself
+# Ex: factorial of 6 is 1*2*3*4*5*6 = 720
+def factorial(n):
+
+    if n == 1:
+        return 1
+    else:
+        return(n * factorial(n-1))
+
+num = 6
+print(f"The factorial of {num} is {factorial(num)}.")
+
 12/07/2024
 
 # Library function using math
