@@ -407,12 +407,12 @@ print(square(n))
 ---------------------------------------------------------------------------------------------------------------------------------
 
 # Creating a loop that iterates over the indices of the list 
-# For each index 'i', print the element at that index in the list (which is 0 to 3 in this case).
+# For each index 'i', print the index and the element at that index.
 # OUTPUT 
-# apple
-# orange
-# strawberry
-# tomato
+# index 0 with value 'apple'
+# index 1 with value 'orange'
+# index 2 with value 'strawberry'
+# index 3 with value 'tomato'
 thislist = ["apple", "orange", "strawberry", "tomato"]
 
 
@@ -421,7 +421,7 @@ thislist = ["apple", "orange", "strawberry", "tomato"]
 # Use the range() and len() functions to create a suitable iterable
 thislist = ["apple", "orange", "strawberry", "tomato"]
 for i in range (len(thislist)):
-    print(thislist[i])
+    print(f"index {i} with value '{thislist[i]}'")
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
