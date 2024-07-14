@@ -1,3 +1,10 @@
+14/07/2024
+
+# lambda
+# Add 10 to argument a, and return the result
+x = lambda a: a + 10
+print(x(5))
+
 13/07/2024
 
 # Recursive function
