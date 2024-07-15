@@ -1,3 +1,13 @@
+15/07/2024
+
+# Built-in Math Functions
+# min() and max() functions to find lower or higher value in an iterable
+x = min(5, 10, 34, 2, 87, 65, 3, 6, 0, 15, 9, 4, 1, 56, 88, 79, 69)
+y = max(5, 10, 34, 2, 87, 65, 3, 6, 0, 15, 9, 4, 1, 56, 88, 79, 69)
+
+print(x)
+print(y)
+
 14/07/2024
 
 # lambda
