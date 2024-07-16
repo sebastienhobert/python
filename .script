@@ -1,3 +1,14 @@
+16/07/2024
+
+# math.ceil()
+import math
+
+x = math.ceil(1.4)
+y = math.floor(1.4)
+
+print(x)
+print(y)
+
 15/07/2024
 
 # Built-in Math Functions
