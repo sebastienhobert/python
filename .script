@@ -1,3 +1,17 @@
+17/07/2024
+
+# Parse JSON string to Python
+import json
+
+# Some JSON
+x =  '{ "name":"Sebastien", "age":27, "city":"Paris"}'
+
+# Parse x
+y = json.loads(x)
+
+# The result is a Python dictionary
+print(y["age"])
+
 16/07/2024
 
 # math.ceil()
