@@ -1,3 +1,24 @@
+18/07/2024
+
+# Error handling
+# I can't open my file in Downloads. So I wrote a error handling for that.
+import csv
+
+file_path  = r"C:\Users\sebwa\Downloads\people.csv"
+
+try:
+    with open(file_path, "r") as file:
+        reader = csv.reader(file)
+
+        for row in reader:
+            print(row)
+except FileNotFoundError:
+    print(f"Error: The file at {file_path} was not found.")
+except PermissionError:
+    print(f"Error: Permission denied when trying to open the file at {file_path}")
+except Exception as e:
+    print(f"An unexpected error occured: {e}")
+
 17/07/2024
 
 # Parse JSON string to Python
