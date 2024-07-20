@@ -1,3 +1,16 @@
+20/07/2024
+
+# Writing to CSV files using pandas
+# (1) Creating a DataFrame using the pd.DataFrame()
+# (2) Function to_csv() is called to write into person.csv
+import pandas as pd
+
+# Creating a data frame
+df = pd.DataFrame([['Di Renjie', 'Detective'], ['Su Wuming', 'Detective']], columns = ['Name', 'Profession'])
+
+# Writing data frame to a CSV file
+df.to_csv('person.csv')
+
 19/07/2024
 
 # Write to CSV files with Python
