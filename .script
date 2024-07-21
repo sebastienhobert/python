@@ -1,3 +1,12 @@
+21/07/2024
+
+# Read CSV files with csv.reader()
+import csv
+with open("person.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
+
 20/07/2024
 
 # Writing to CSV files using pandas
