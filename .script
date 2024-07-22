@@ -1,3 +1,12 @@
+22/07/2024
+
+# Read CSV file having tab delimiter
+import csv
+with open("person.csv", "r") as file:
+    reader = csv.reader(file, delimiter = "\t")
+    for row in reader:
+        print(row)
+
 21/07/2024
 
 # Read CSV files with csv.reader()
