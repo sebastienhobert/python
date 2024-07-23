@@ -1,3 +1,12 @@
+23/07/2024
+
+# Read CSV files but ignore any whitespace immediately following the delimiter (comma by default)
+import csv
+with open('people.csv', 'r') as csvfile:
+    reader = csv.reader(csvfile, skipinitialspace=True)
+    for row in reader:
+        print(row)
+
 22/07/2024
 
 # Read CSV file having tab delimiter
