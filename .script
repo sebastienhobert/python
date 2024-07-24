@@ -1,3 +1,23 @@
+24/07/2024
+
+# match statement
+def runMatch():
+    num = int(input("Enter a number between 1 and 3: "))
+
+    # match case
+    match num:
+        case 1:
+            print("One")
+        case 2:
+            print("Two")
+        case 3:
+            print("Three")
+        # default pattern
+        case _:
+            print("Number not between 1 and 3")
+
+runMatch()
+
 23/07/2024
 
 # Read CSV files but ignore any whitespace immediately following the delimiter (comma by default)
