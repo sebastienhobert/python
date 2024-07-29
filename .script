@@ -1,3 +1,13 @@
+29/07/2024
+
+# handling exceptions with the try and except block
+# 'try' and 'except' to catch and handle exceptions
+def linux_interaction():
+    import sys
+    if "linux" not in sys.platform:
+        raise RuntimeError("Function can only run on Linux systems.")
+    print("Doing Linux things.")
+
 28/07/2024
 
 # debugging during development with assert
