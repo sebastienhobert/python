@@ -1,3 +1,11 @@
+30/07/2024
+
+# exception that generates an informative message
+try:
+    linux_interaction()
+except:
+    print("Linux function wasn't executed.")
+
 29/07/2024
 
 # handling exceptions with the try and except block
