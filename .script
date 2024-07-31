@@ -1,3 +1,15 @@
+31/07/2024
+
+# capture RuntimeError and output message to screen
+# (does not work)
+def linux_interaction():
+    import sys
+    try:
+        linux_interaction()
+    except RuntimeError as error:
+     print(error)
+     print("The linux_interaction() function wasn't executed.")
+
 30/07/2024
 
 # exception that generates an informative message
