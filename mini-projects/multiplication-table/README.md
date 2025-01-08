@@ -1,0 +1,1 @@
+Generate a multiplication table for a given number.
