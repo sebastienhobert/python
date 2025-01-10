@@ -1,0 +1,1 @@
+Simulate rolling a pair of dice.
