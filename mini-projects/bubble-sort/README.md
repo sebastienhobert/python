@@ -1,0 +1,1 @@
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. Although it is not the most efficient sorting algorithm for large datasets, it is a great way to learn about sorting concepts.
